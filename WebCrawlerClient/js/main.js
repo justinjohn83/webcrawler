@@ -52,7 +52,7 @@
 		    ctx.lineTo(tox, toy);
 		    
 		    // draw arrow head 2/3 toward node
-		    var u = xpt(fromx,fromy,tox,toy,2/3.0);
+		    var u = xpt(fromx,fromy,tox,toy,0.95);
 		    ctx.moveTo(u.x, u.y);
 		    ctx.lineTo(u.x-headlen*Math.cos(angle-Math.PI/6),u.y-headlen*Math.sin(angle-Math.PI/6));
 		    ctx.moveTo(u.x, u.y);
@@ -173,7 +173,7 @@
     sys.addEdge('a','c');
     sys.addEdge('a','d');
     sys.addEdge('a','e');
-    sys.addNode('f', {alone:true, mass:.25});
+    //sys.addNode('f', {alone:true, mass:.25});
 
     // or, equivalently:
     //
