@@ -9,6 +9,7 @@
   var renderer = function(canvas){
     var canvas = $(canvas).get(0);
     var ctx = canvas.getContext("2d");
+    var gfx = Graphics(canvas);
     var particleSystem;
 
     var that = {};
@@ -32,15 +33,30 @@
       };
       
       that.redraw = function(){
-    	  
+
+      function xpt(fromx, fromy, tox, toy,f) {
+		    // distance formula
+		    //var mag = Math.sqrt((tox - fromx) * (tox-from) + (toy - fromy) * (toy-fromy));
+		    // ux = x1 + f * (x2 - x1)
+		    // uy = y1 + f * (y2 -y1)
+    	    // vector math
+		    var ux = fromx + f * (tox - fromx);
+		    var uy = fromy + f * (toy - fromy);
+		    
+		    return {'x':ux,'y':uy};
+      }
     	// length of head in pixels
 	  function canvas_arrow(ctx, fromx, fromy, tox, toy,headlen){
 		    var angle = Math.atan2(toy-fromy,tox-fromx);
 		    ctx.moveTo(fromx, fromy);
 		    ctx.lineTo(tox, toy);
-		    ctx.lineTo(tox-headlen*Math.cos(angle-Math.PI/6),toy-headlen*Math.sin(angle-Math.PI/6));
-		    ctx.moveTo(tox, toy);
-		    ctx.lineTo(tox-headlen*Math.cos(angle+Math.PI/6),toy-headlen*Math.sin(angle+Math.PI/6));
+		    
+		    // draw arrow head 2/3 toward node
+		    var u = xpt(fromx,fromy,tox,toy,2/3.0);
+		    ctx.moveTo(u.x, u.y);
+		    ctx.lineTo(u.x-headlen*Math.cos(angle-Math.PI/6),u.y-headlen*Math.sin(angle-Math.PI/6));
+		    ctx.moveTo(u.x, u.y);
+		    ctx.lineTo(u.x-headlen*Math.cos(angle+Math.PI/6),u.y-headlen*Math.sin(angle+Math.PI/6));
 		}  
         // 
         // redraw will be called repeatedly during the run whenever the node positions
@@ -60,7 +76,7 @@
           // pt2:  {x:#, y:#}  target position in screen coords
 
           // draw a line from pt1 to pt2
-          ctx.strokeStyle = "rgba(0,0,0, .333)";
+          ctx.strokeStyle = "rgba(0,0,0, .75)";
           ctx.lineWidth = 1;
           ctx.beginPath();
           
@@ -76,9 +92,20 @@
           // pt:   {x:#, y:#}  node position in screen coords
 
           // draw a rectangle centered at pt
-          var w = 10;
-          ctx.fillStyle = (node.data.alone) ? "orange" : "black";
-          ctx.fillRect(pt.x-w/2, pt.y-w/2, w,w);
+          //var w = 10;
+          //ctx.fillStyle = (node.data.alone) ? "orange" : "black";
+          //ctx.fillRect(pt.x-w/2, pt.y-w/2, w,w);
+            var w = Math.max(20, 20+gfx.textWidth(node.name) );
+            //if (node.data.alpha===0) return
+           // if (node.data.shape=='dot'){
+              gfx.oval(pt.x-w/2, pt.y-w/2, w, w, {fill:'blue',alpha:'0.67'}); //{fill:node.data.color, alpha:node.data.alpha});
+              gfx.text(node.name, pt.x, pt.y+7, {color:"white", align:"center", font:"Arial", size:12});
+              gfx.text(node.name, pt.x, pt.y+7, {color:"white", align:"center", font:"Arial", size:12});
+           // }else{
+           //   gfx.rect(pt.x-w/2, pt.y-8, w, 20, 4, {fill:node.data.color, alpha:node.data.alpha})
+           //   gfx.text(node.name, pt.x, pt.y+9, {color:"white", align:"center", font:"Arial", size:12})
+           //   gfx.text(node.name, pt.x, pt.y+9, {color:"white", align:"center", font:"Arial", size:12})
+          //  }
         }); 			
       };
       
