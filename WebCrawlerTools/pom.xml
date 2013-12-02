@@ -4,4 +4,106 @@
   <artifactId>web-crawler-tools</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>WebCrawlerTools</name>
+  
+    <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java-version>1.6</java-version>
+    
+		<org.slf4j.version>1.7.2</org.slf4j.version>
+    
+    <!--  TODO: only include below two lines if don't have internet connectivity -->
+      
+     
+     <!--  
+	<maven.test.skip>true</maven.test.skip>
+	<maven.test.failure.ignore>true</maven.test.failure.ignore>
+	
+	-->
+	
+  </properties>
+
+   	<dependencies>
+ 
+   	    <dependency>
+   	      <groupId>com.gamesalutes</groupId>
+		  <artifactId>utils</artifactId>
+		  <version>2.0.0</version>
+		</dependency>
+		
+   	  	<dependency>
+	        <groupId>com.gamesalutes</groupId>
+		    <artifactId>httpconnection</artifactId>
+		    <version>1.3.0</version>
+		    <scope>compile</scope>
+ 		</dependency>
+  
+   		<dependency>
+   			<groupId>org.slf4j</groupId>
+   			<artifactId>slf4j-api</artifactId>
+   			<version>${org.slf4j.version}</version>
+   			<scope>compile</scope>
+   		</dependency>
+   		<dependency>
+   			<groupId>log4j</groupId>
+   			<artifactId>log4j</artifactId>
+   			<version>1.2.16</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>org.slf4j</groupId>
+   			<artifactId>slf4j-log4j12</artifactId>
+   			<version>${org.slf4j.version}</version>
+   		</dependency>
+<dependency>
+	<groupId>commons-logging</groupId>
+	<artifactId>commons-logging</artifactId>
+	<version>1.1.3</version>
+</dependency>
+
+   		<dependency>
+   			<groupId>org.apache.commons</groupId>
+   			<artifactId>commons-lang3</artifactId>
+   			<version>3.1</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>commons-io</groupId>
+   			<artifactId>commons-io</artifactId>
+   			<version>2.4</version>
+   		</dependency>
+   		<dependency>
+   			<groupId>commons-collections</groupId>
+   			<artifactId>commons-collections</artifactId>
+   			<version>3.2</version>
+   		</dependency>
+
+   		<!--  Geocoding from Java -->
+   		<dependency>
+   			<groupId>com.google.code.geocoder-java</groupId>
+   			<artifactId>geocoder-java</artifactId>
+   			<version>0.15</version>
+   		</dependency>
+
+   		 <dependency>
+   			<groupId>com.google.code.gson</groupId>
+   			<artifactId>gson</artifactId>
+   			<version>2.2.4</version>
+   		</dependency>
+   		
+   		<dependency>
+   			<groupId>junit</groupId>
+   			<artifactId>junit</artifactId>
+   			<version>4.8.2</version>
+   			<scope>test</scope>
+   		</dependency>
+
+  		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.8.4</version>
+     		 <scope>test</scope>
+		</dependency>
+	
+
+
+   	</dependencies>
 </project>
+
