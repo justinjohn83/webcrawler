@@ -47,6 +47,10 @@ public final class WebCrawlerClient {
 				}
 				InputStream htmlStream = connector.getResource(link.getSourceUrl().toString());
 				try {
+					// visit was successful we got data back - 200 response code
+					if(this.linkListener != null) {
+						linkListener.onVisitSuccess(link);
+					}
 					Map<String,String> pageLinks = 
 							linkParser.parseLinks(htmlStream);
 					for(Map.Entry<String, String> E : pageLinks.entrySet()) {
@@ -71,8 +75,10 @@ public final class WebCrawlerClient {
 				
 			}
 			catch(IOException e) {
-				// TODO: Handle broken links
 				logger.warn("Unable to visit link=" + link + ";baseUrl=" + baseUrl,e);
+				if(this.linkListener != null) {
+					this.linkListener.onVisitFailied(link);
+				}
 			}
 		}
 	}
