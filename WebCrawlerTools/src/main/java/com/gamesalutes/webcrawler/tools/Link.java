@@ -4,29 +4,48 @@ import java.net.URI;
 
 import com.gamesalutes.utils.WebUtils;
 
-public final class Link {
+public final class Link implements Comparable<Link> {
 	
 	private final URI sourceUrl;
 	private final URI targetUrl;
 	private final String sourceName;
 	private final String targetName;
 	
+	public Link(String targetUrl,String targetName) {
+		this(null,targetUrl,null,targetName);
+	}
 	public Link(Link base,String targetUrl,String targetName) {
-		this.sourceUrl = base.getSourceUrl();
-		this.sourceName = base.getSourceName();
+		if(base.getTargetUrl() != null) {
+			this.sourceUrl = base.getTargetUrl();
+			this.sourceName = base.getTargetName();
+		}
+		else {
+			this.sourceUrl = null;
+			this.sourceName = null;
+		}
 		this.targetUrl = WebUtils.createUri(targetUrl);;
 		this.targetName = targetName;
 	}
 	public Link(String sourceUrl,String targetUrl,String sourceName,String targetName) {
-		this.sourceUrl = WebUtils.createUri(sourceUrl);
+		if(sourceUrl != null) {
+			this.sourceUrl = WebUtils.createUri(sourceUrl);
+			this.sourceName = sourceName;
+		}
+		else {
+			this.sourceUrl = null;
+			this.sourceName = null;
+		}
 		this.targetUrl = WebUtils.createUri(targetUrl);
-		this.sourceName = sourceName;
 		this.targetName = targetName;
 	}
 	
 	
 	public boolean isExternal() {
-		return LinkUtils.resolve(sourceUrl, targetUrl) != null;
+		// single root entry is internal by definition
+		if(sourceUrl == null) {
+			return false;
+		}
+		return LinkUtils.resolve(sourceUrl, targetUrl) == null;
 	}
 
 
@@ -68,7 +87,10 @@ public final class Link {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append(sourceName).append(":").append(sourceUrl).append(" -> ").append(targetName).append(":").append(targetUrl);
+		if(sourceUrl != null) {
+			builder.append(sourceName).append(":").append(sourceUrl).append(" -> ");
+		}
+		builder.append(targetName).append(":").append(targetUrl);
 		
 		return builder.toString();
 	}
@@ -83,5 +105,31 @@ public final class Link {
 	}
 	public String getTargetName() {
 		return targetName;
+	}
+	public int compareTo(Link other) {
+		int result = 0;
+		if(sourceUrl != null && other.sourceUrl != null) {
+			result = sourceUrl.compareTo(other.sourceUrl);
+		}
+		else if(sourceUrl == null) {
+			return -1;
+		}
+		else if(other.sourceUrl == null) {
+			return 1;
+		}
+		
+		if(result == 0) {
+			if(targetUrl != null && other.targetUrl != null) {
+				result = targetUrl.compareTo(other.targetUrl);
+			}
+			else if(targetUrl == null) {
+				return -1;
+			}
+			else if(other.targetUrl == null) {
+				return 1;
+			}
+		}
+		
+		return result;
 	}
 }

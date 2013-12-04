@@ -16,7 +16,7 @@ public class StaticResourceWebConnector extends AbstractWebConnector {
 		if(!resourceMap.containsKey(absoluteUrl)) {
 			throw new IOException("absoluteUrl=" + absoluteUrl);
 		}
-		InputStream stream = this.getResource(resourceMap.get(absoluteUrl));
+		InputStream stream = getClass().getResourceAsStream(resourceMap.get(absoluteUrl));
 		
 		if(stream == null) {
 			throw new IOException("No stream for resource=" + resourceMap.get(absoluteUrl));

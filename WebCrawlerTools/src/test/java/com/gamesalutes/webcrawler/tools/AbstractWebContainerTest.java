@@ -47,6 +47,17 @@ public class AbstractWebContainerTest {
 	}
 	
 	@Test
+	public void testMatchesBaseUrlAbsolute() {
+		String base = "http://www.example.com";
+		webConnector.setBaseUrl(base);
+				
+		String absoluteUrl = webConnector.getAbsoluteUrl(base);
+		assertEquals(base,absoluteUrl);
+		assertTrue(webConnector.matchesBaseUrl(absoluteUrl));
+		
+	}
+	
+	@Test
 	public void testNotMatchesBaseUrl() {
 		String base = "http://www.example.com";
 		webConnector.setBaseUrl(base);

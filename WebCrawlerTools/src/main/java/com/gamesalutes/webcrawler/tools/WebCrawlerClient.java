@@ -16,24 +16,24 @@ import com.gamesalutes.utils.MiscUtils;
 public final class WebCrawlerClient {
 
 	private WebConnector connector;
-	private Set<Link> visitedLinks;
 	private LinkParser linkParser;
 	private LinkListener linkListener;
 	
 	private final Logger logger  = LoggerFactory.getLogger(getClass());
 	
-	private Queue<Link> visitQueue;
 	
 	public WebCrawlerClient() {
-		visitedLinks = new LinkedHashSet<Link>();
-		visitQueue = new ArrayDeque<Link>();
 	}
 	
-	public void execute(String baseUrl,String baseName) throws IOException {
+	public Set<Link> execute(String baseUrl,String baseName) throws IOException {
 		
-		Link baseLink = new Link(baseUrl,baseUrl,baseName,baseName);
+		Set<Link> visitedLinks  = new LinkedHashSet<Link>();
+		Queue<Link> visitQueue = new ArrayDeque<Link>();
+		
+		Link baseLink = new Link(baseUrl,baseName);
 		
 		visitQueue.offer(baseLink);
+		visitedLinks.add(baseLink);
 		connector.setBaseUrl(baseUrl);
 		
 		// BFS
@@ -45,7 +45,7 @@ public final class WebCrawlerClient {
 				if(this.linkListener != null) {
 					linkListener.onVisited(link);
 				}
-				InputStream htmlStream = connector.getResource(link.getSourceUrl().toString());
+				InputStream htmlStream = connector.getResource(link.getTargetUrl().toString());
 				try {
 					// visit was successful we got data back - 200 response code
 					if(this.linkListener != null) {
@@ -57,14 +57,16 @@ public final class WebCrawlerClient {
 						Link targetLink = new Link(link,E.getKey(),E.getValue());
 						// make sure haven't already visited
 						if(visitedLinks.add(targetLink)) {
-							if(!targetLink.isExternal()) {
+							Link baseToTarget = new Link(baseLink,E.getKey(),E.getValue());
+							if(!baseToTarget.isExternal()) {
 								visitQueue.offer(targetLink);
 							}
-							else {
-								if(this.linkListener != null) {
-									linkListener.onVisited(targetLink);
-								}
-							}
+							// external link - stop the recursion but note the link
+//							else {
+//								if(this.linkListener != null) {
+//									linkListener.onVisited(targetLink);
+//								}
+//							}
 						}
 						
 					}
@@ -81,6 +83,8 @@ public final class WebCrawlerClient {
 				}
 			}
 		}
+		
+		return visitedLinks;
 	}
 	
 	
@@ -101,14 +105,6 @@ public final class WebCrawlerClient {
 
 	public void setLinkParser(LinkParser linkParser) {
 		this.linkParser = linkParser;
-	}
-
-	public Set<Link> getVisitedLinks() {
-		return visitedLinks;
-	}
-
-	public void setVisitedLinks(Set<Link> visitedLinks) {
-		this.visitedLinks = visitedLinks;
 	}
 
 	public LinkListener getLinkListener() {
