@@ -2,7 +2,6 @@ package com.gamesalutes.webcrawler.tools;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -17,12 +16,14 @@ public class WebCrawlerClientTest {
 	private WebCrawlerClient client;
 	private Set<Link> visitedLinks;
 	private Set<Link> internalLinks;
+	private Set<Link> externalLinks;
 	
 	@Before
 	public void before() {
 		client = new WebCrawlerClient();
 		visitedLinks = new HashSet<Link>();
 		internalLinks = new HashSet<Link>();
+		externalLinks = new HashSet<Link>();
 		
 		Map<String,String> resourceLinker = new HashMap<String,String>();
 		resourceLinker.put("http://www.page.com", "externalLinks1.html");
@@ -40,10 +41,9 @@ public class WebCrawlerClientTest {
 			}
 
 			public void onVisitSuccess(Link link) {
-				internalLinks.add(link);				
 			}
 
-			public void onVisitFailied(Link link) {
+			public void onVisitFailed(Link link) {
 				// TODO Auto-generated method stub
 				
 			}
@@ -51,6 +51,14 @@ public class WebCrawlerClientTest {
 			public void onEnd(String baseUrl) {
 				// TODO Auto-generated method stub
 				
+			}
+
+			public void onExternalLink(Link link) {
+				externalLinks.add(link);
+			}
+
+			public void onInternalLink(Link link) {
+				internalLinks.add(link);
 			}
 			
 		});
@@ -68,13 +76,15 @@ public class WebCrawlerClientTest {
 		expected.add(new Link(home,"http://www.external2.com","External 2"));
 		expected.add(new Link(home,"http://www.external3.com","External 3"));
 		
+		
 		assertEquals(new TreeSet<Link>(expected).toString(),new TreeSet<Link>(actual).toString());
 		assertEquals(expected,actual);
 		
 		// check listener
 //		assertTrue(internalLinks.toString(),internalLinks.isEmpty());
-		assertEquals(new HashSet<Link>(Arrays.asList(home)),internalLinks);
-		assertEquals(new HashSet<Link>(Arrays.asList(home)),visitedLinks);
+		assertEquals(new HashSet<Link>(),internalLinks);
+		expected.remove(home);
+		assertEquals(expected,externalLinks);
 
 
 	}

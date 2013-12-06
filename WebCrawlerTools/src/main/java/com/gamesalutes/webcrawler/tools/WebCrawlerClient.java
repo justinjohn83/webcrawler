@@ -60,13 +60,16 @@ public final class WebCrawlerClient {
 							Link baseToTarget = new Link(baseLink,E.getKey(),E.getValue());
 							if(!baseToTarget.isExternal()) {
 								visitQueue.offer(targetLink);
+								if(this.linkListener != null) {
+									linkListener.onInternalLink(targetLink);
+								}
 							}
 							// external link - stop the recursion but note the link
-//							else {
-//								if(this.linkListener != null) {
-//									linkListener.onVisited(targetLink);
-//								}
-//							}
+							else {
+								if(this.linkListener != null) {
+									linkListener.onExternalLink(targetLink);
+								}
+							}
 						}
 						
 					}
@@ -79,7 +82,7 @@ public final class WebCrawlerClient {
 			catch(IOException e) {
 				logger.warn("Unable to visit link=" + link + ";baseUrl=" + baseUrl,e);
 				if(this.linkListener != null) {
-					this.linkListener.onVisitFailied(link);
+					this.linkListener.onVisitFailed(link);
 				}
 			}
 		}
