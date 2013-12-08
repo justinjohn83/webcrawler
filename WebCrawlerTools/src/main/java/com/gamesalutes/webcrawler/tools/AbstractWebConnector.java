@@ -38,7 +38,7 @@ public abstract class AbstractWebConnector implements WebConnector {
 
 	 String getAbsoluteUrl(String url) {
 		 
-		return LinkUtils.resolve(baseUrl, WebUtils.createUri(url));
+		return LinkUtils.resolve(baseUrl, LinkUtils.getUri(url));
 	}
 	public final boolean matchesBaseUrl(String url) {
 		return getAbsoluteUrl(url) != null;

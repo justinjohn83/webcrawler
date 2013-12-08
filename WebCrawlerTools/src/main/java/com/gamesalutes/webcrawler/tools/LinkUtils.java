@@ -7,9 +7,19 @@ import com.gamesalutes.utils.WebUtils;
 public class LinkUtils {
 	
 	public static String resolve(String baseUrl,String url) {
-		return resolve(WebUtils.createUri(baseUrl), WebUtils.createUri(url));
+
+		return resolve(WebUtils.createUri(baseUrl), getUri(url));
+	}
+	
+	public static URI getUri(String url) {
+		// TODO:
+		if(!url.startsWith("http") && !url.startsWith("/")) {
+			url = "/" + url;
+		}
+		return WebUtils.createUri(url);
 	}
 	public static String resolve(URI baseUrl,URI inputUri) {
+		
 		URI resolved = baseUrl.resolve(inputUri);
 		
 		String baseUriStr = baseUrl.toString();

@@ -5,12 +5,14 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,13 +24,18 @@ public class WebCrawlerClientTest {
 	private Set<Link> externalLinks;
 	private Set<Link> failedLinks;
 	
+	@After
+	public void after() {
+		client.dispose();
+	}
 	@Before
 	public void before() {
 		client = new WebCrawlerClient();
-		visitedLinks = new HashSet<Link>();
-		internalLinks = new HashSet<Link>();
-		externalLinks = new HashSet<Link>();
-		failedLinks = new HashSet<Link>();
+		client.initialize();
+		visitedLinks = Collections.synchronizedSet(new HashSet<Link>());
+		internalLinks = Collections.synchronizedSet(new HashSet<Link>());
+		externalLinks = Collections.synchronizedSet(new HashSet<Link>());
+		failedLinks = Collections.synchronizedSet(new HashSet<Link>());
 		
 		client.setLinkParser(new LinkParser());
 		client.setLinkListener(new LinkListener() {
