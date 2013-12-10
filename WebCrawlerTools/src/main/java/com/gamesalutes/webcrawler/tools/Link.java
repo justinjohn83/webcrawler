@@ -47,6 +47,9 @@ public final class Link implements Comparable<Link> {
 		}
 		return LinkUtils.resolve(sourceUrl, targetUrl) == null;
 	}
+	public boolean isRoot() {
+		return sourceUrl == null;
+	}
 
 
 	@Override

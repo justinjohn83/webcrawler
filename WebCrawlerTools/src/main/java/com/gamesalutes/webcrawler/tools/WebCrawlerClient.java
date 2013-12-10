@@ -98,6 +98,9 @@ public final class WebCrawlerClient implements Disposable {
 		visitQueue.offer(getFutureLink(baseLink));
 		visitedLinks.add(baseLink);
 		
+		if(this.linkListener != null) {
+			linkListener.onBegin(baseUrl);
+		}
 		// BFS
 		while(!visitQueue.isEmpty()) {
 			Future<LinkData> linkFuture = visitQueue.poll();
@@ -148,6 +151,10 @@ public final class WebCrawlerClient implements Disposable {
 			catch(Exception e) {
 				logger.error("Unable to visit link : Execution failed",e);
 			}
+		} // while
+		
+		if(this.linkListener != null) {
+			this.linkListener.onEnd(baseUrl);
 		}
 		
 		return visitedLinks;
