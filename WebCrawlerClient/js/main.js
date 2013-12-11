@@ -58,6 +58,19 @@
 		    ctx.moveTo(u.x, u.y);
 		    ctx.lineTo(u.x-headlen*Math.cos(angle+Math.PI/6),u.y-headlen*Math.sin(angle+Math.PI/6));
 		}  
+	  
+	  function computeNodeColor(nodeData) {
+		  if(nodeData.isExternal) {
+			  return 'blue';
+		  }
+		  else if(!nodeData.exists) {
+			  return 'red';
+		  }
+		  // internal and exists
+		  else {
+			  return 'green';
+		  }
+	  }
         // 
         // redraw will be called repeatedly during the run whenever the node positions
         // change. the new positions for the nodes can be accessed by looking at the
@@ -98,7 +111,7 @@
             var w = Math.max(20, 20+gfx.textWidth(node.name) );
             //if (node.data.alpha===0) return
            // if (node.data.shape=='dot'){
-              gfx.oval(pt.x-w/2, pt.y-w/2, w, w, {fill:'blue',alpha:'0.67'}); //{fill:node.data.color, alpha:node.data.alpha});
+              gfx.oval(pt.x-w/2, pt.y-w/2, w, w, {fill:computeNodeColor(node.data),alpha:'0.67'}); //{fill:node.data.color, alpha:node.data.alpha});
               gfx.text(node.name, pt.x, pt.y+7, {color:"white", align:"center", font:"Arial", size:12});
               gfx.text(node.name, pt.x, pt.y+7, {color:"white", align:"center", font:"Arial", size:12});
            // }else{
@@ -161,18 +174,81 @@
       };
       
     return that;
-  };   
-
+  }; 
+  
+  function getGraphData(cb) {
+	  $.getJSON( "data/gamesalutes.json", function( data ) {
+		  cb(data.nodes);
+	  });
+  }
+  function populateGraph(sys,dataNodes) {
+	  // id -> node:
+		//	  "id": "35",
+		//      "value": "/nvisia-careers/benefits",
+		//      "name": "Benefits",
+		//      "edges": [],
+		//      "isExternal": false,
+		//      "exists": true
+	  // first create the nodes
+	  var nodeMap = {};
+	  
+	  // nodes
+	  for(id in dataNodes) {
+		  if(dataNodes.hasOwnProperty(id)) {
+			  var node = dataNodes[id];
+			  var graphNode = sys.addNode(node.name,node);
+			  nodeMap[id] = graphNode;
+		  }
+	  }
+	  //edges
+	  for(id in dataNodes) {
+		  if(dataNodes.hasOwnProperty(id)) {
+			  var node = dataNodes[id];
+			  var graphFromNode = nodeMap[id];
+			  
+			  // add edges
+			  for(var i = 0; i < node.edges.length; ++i) {
+				  var toNodeId = node.edges[i];
+				  
+				  var toNode = dataNodes[toNodeId];
+				  if(toNode != null) {
+					  var graphToNode = nodeMap[toNodeId];
+					  sys.addEdge(graphFromNode,graphToNode);
+				  }
+				  else {
+					  console.log("No node value for to edge=" + toNodeId + "fromNode=" + JSON.stringify(node));
+				  }
+			  }
+		  }
+	  }
+  }
+  
+  function computeWindowSize() {
+	  
+		var height = parseInt($(document).height(),10);
+		var width = parseInt($(document).width(),10);
+			
+		$('#viewport').attr('width',width);
+		$('#viewport').attr('height',height);
+  }
   $(document).ready(function(){
+	  
+	computeWindowSize();
+	
+	$( window ).resize(computeWindowSize);
+	
     var sys = arbor.ParticleSystem(1000, 600, 0.5); // create the system with sensible repulsion/stiffness/friction
     sys.parameters({gravity:true}); // use center-gravity to make the graph settle nicely (ymmv)
     sys.renderer = renderer("#viewport"); // our newly created renderer will have its .init() method called shortly by sys...
 
+    getGraphData(function(data) {
+    	populateGraph(sys,data);
+    });
     // add some nodes to the graph and watch it go...
-    sys.addEdge('a','b');
-    sys.addEdge('a','c');
-    sys.addEdge('a','d');
-    sys.addEdge('a','e');
+//    sys.addEdge('a','b');
+//    sys.addEdge('a','c');
+//    sys.addEdge('a','d');
+//    sys.addEdge('a','e');
     //sys.addNode('f', {alone:true, mass:.25});
 
     // or, equivalently:

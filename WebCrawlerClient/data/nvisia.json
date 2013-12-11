@@ -169,14 +169,14 @@
             "value": "/about-us/blog/open-source-mainframes",
             "name": "Open Source Mainframes",
             "edges": [
-                "302",
-                "304",
-                "303",
                 "306",
                 "305",
+                "312",
                 "308",
+                "313",
                 "307",
                 "310",
+                "311",
                 "309"
             ],
             "isExternal": true,
@@ -201,8 +201,8 @@
             "value": "/users/courtney-faulkner",
             "name": "Courtney Faulkner",
             "edges": [
-                "312",
-                "311"
+                "314",
+                "315"
             ],
             "isExternal": true,
             "exists": true
@@ -212,7 +212,7 @@
             "value": "/about-us/blog/open-source-code-navigator",
             "name": "Open source code navigator",
             "edges": [
-                "299"
+                "302"
             ],
             "isExternal": true,
             "exists": true
@@ -222,8 +222,8 @@
             "value": "/about-us/blog/spring-framework-25-rc1-released",
             "name": "Spring Framework 2.5 RC1 released",
             "edges": [
-                "300",
-                "301"
+                "304",
+                "303"
             ],
             "isExternal": true,
             "exists": true
@@ -334,13 +334,13 @@
             "edges": [
                 "240",
                 "241",
-                "219",
                 "245",
                 "244",
                 "243",
                 "242",
-                "220",
-                "221",
+                "248",
+                "247",
+                "246",
                 "222",
                 "223",
                 "224",
@@ -383,8 +383,8 @@
             "value": "/about-us/blog/commercialized-open-source",
             "name": "Commercialized open source",
             "edges": [
-                "217",
-                "218"
+                "220",
+                "221"
             ],
             "isExternal": true,
             "exists": true
@@ -665,11 +665,10 @@
         },
         "216": {
             "id": "216",
-            "value": "/",
-            "name": "more",
+            "value": "https://www.cchit.org/",
+            "name": "http://cchit.org",
             "edges": [],
-            "isExternal": true,
-            "exists": true
+            "isExternal": true
         },
         "213": {
             "id": "213",
@@ -695,12 +694,21 @@
             "isExternal": true,
             "exists": true
         },
+        "314": {
+            "id": "314",
+            "value": "/user/46/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
         "219": {
             "id": "219",
-            "value": "http://enunciate.codehaus.org/",
-            "name": "Enunciate",
+            "value": "/",
+            "name": "more",
             "edges": [],
-            "isExternal": true
+            "isExternal": true,
+            "exists": true
         },
         "17": {
             "id": "17",
@@ -713,6 +721,14 @@
         "179": {
             "id": "179",
             "value": "/user/58/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "315": {
+            "id": "315",
+            "value": "/user/46/blog-post",
             "name": "Blog Posts",
             "edges": [],
             "isExternal": true,
@@ -736,16 +752,15 @@
         },
         "312": {
             "id": "312",
-            "value": "/user/46/blog-post",
-            "name": "Blog Posts",
+            "value": "http://en.wikipedia.org/wiki/SAWZALL_(Programming_Language)",
+            "name": "Google Sawzall",
             "edges": [],
-            "isExternal": true,
-            "exists": true
+            "isExternal": true
         },
         "217": {
             "id": "217",
-            "value": "http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=331311",
-            "name": "reported",
+            "value": "http://www.gpo.gov/fdsys/pkg/FR-2010-07-28/pdf/2010-17210.pdf",
+            "name": "Health Information Technology: Initial Set of Standards, Implementation Specifications, and Certification Criteria for Electronic Health Record Technology",
             "edges": [],
             "isExternal": true
         },
@@ -762,15 +777,22 @@
             "value": "/about-us/blog/icd-10-%25E2%2580%2593-future-medical-coding-system%25E2%2580%25A6",
             "name": "ICD-10 ? The future of the medical coding system?",
             "edges": [
-                "248"
+                "251"
             ],
             "isExternal": true,
             "exists": true
         },
+        "313": {
+            "id": "313",
+            "value": "http://en.wikipedia.org/wiki/BigTable",
+            "name": "Google BigTable",
+            "edges": [],
+            "isExternal": true
+        },
         "218": {
             "id": "218",
-            "value": "http://monty-says.blogspot.com/2008/11/oops-we-did-it-again-mysql-51-released.html",
-            "name": "blog entry",
+            "value": "http://healthcare.nist.gov/use_testing/finalized_requirements.html",
+            "name": "test procedures",
             "edges": [],
             "isExternal": true
         },
@@ -791,8 +813,8 @@
         },
         "310": {
             "id": "310",
-            "value": "http://en.wikipedia.org/wiki/BigTable",
-            "name": "Google BigTable",
+            "value": "http://en.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "Amazon Web Services",
             "edges": [],
             "isExternal": true
         },
@@ -806,11 +828,10 @@
         },
         "311": {
             "id": "311",
-            "value": "/user/46/blog-posts",
-            "name": "Blog Post",
+            "value": "http://en.wikipedia.org/wiki/Google_file_system",
+            "name": "Google File System",
             "edges": [],
-            "isExternal": true,
-            "exists": true
+            "isExternal": true
         },
         "14": {
             "id": "14",
@@ -865,8 +886,8 @@
             "value": "/users/bryan-coller",
             "name": "Bryan Coller",
             "edges": [
-                "247",
-                "246"
+                "250",
+                "249"
             ],
             "isExternal": true,
             "exists": true
@@ -901,64 +922,64 @@
         },
         "220": {
             "id": "220",
-            "value": "http://enunciate.codehaus.org/wannabecool/step4/index.html",
-            "name": "example API page",
+            "value": "http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=331311",
+            "name": "reported",
             "edges": [],
             "isExternal": true
         },
         "221": {
             "id": "221",
-            "value": "http://enunciate.codehaus.org/wannabecool/step4/downloads.html",
-            "name": "example API downloads link",
+            "value": "http://monty-says.blogspot.com/2008/11/oops-we-did-it-again-mysql-51-released.html",
+            "name": "blog entry",
             "edges": [],
             "isExternal": true
         },
         "222": {
             "id": "222",
-            "value": "http://docs.codehaus.org/display/ENUNCIATE/Roadmap",
-            "name": "roadmap",
+            "value": "http://enunciate.codehaus.org/",
+            "name": "Enunciate",
             "edges": [],
             "isExternal": true
         },
         "223": {
             "id": "223",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-9",
-            "name": "ENUNCIATE-9",
+            "value": "http://enunciate.codehaus.org/wannabecool/step4/index.html",
+            "name": "example API page",
             "edges": [],
             "isExternal": true
         },
         "224": {
             "id": "224",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-20",
-            "name": "ENUNCIATE-20",
+            "value": "http://enunciate.codehaus.org/wannabecool/step4/downloads.html",
+            "name": "example API downloads link",
             "edges": [],
             "isExternal": true
         },
         "225": {
             "id": "225",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-10",
-            "name": "ENUNCIATE-10",
+            "value": "http://docs.codehaus.org/display/ENUNCIATE/Roadmap",
+            "name": "roadmap",
             "edges": [],
             "isExternal": true
         },
         "226": {
             "id": "226",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-11",
-            "name": "ENUNCIATE-11",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-9",
+            "name": "ENUNCIATE-9",
             "edges": [],
             "isExternal": true
         },
         "227": {
             "id": "227",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-8",
-            "name": "ENUNCIATE-8",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-20",
+            "name": "ENUNCIATE-20",
             "edges": [],
             "isExternal": true
         },
         "228": {
             "id": "228",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-17",
-            "name": "ENUNCIATE-17",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-10",
+            "name": "ENUNCIATE-10",
             "edges": [],
             "isExternal": true
         },
@@ -967,10 +988,10 @@
             "value": "/about-us/blog/osgi-tutorial",
             "name": "OSGi Tutorial",
             "edges": [
-                "275",
-                "276",
+                "288",
+                "289",
                 "286",
-                "277",
+                "287",
                 "278",
                 "279",
                 "281",
@@ -985,8 +1006,8 @@
         },
         "229": {
             "id": "229",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-18",
-            "name": "ENUNCIATE-18",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-11",
+            "name": "ENUNCIATE-11",
             "edges": [],
             "isExternal": true
         },
@@ -995,9 +1016,9 @@
             "value": "/about-us/blog/return-browser-wars",
             "name": "Return of the browser wars?",
             "edges": [
-                "270",
-                "269",
-                "268",
+                "275",
+                "276",
+                "277",
                 "272",
                 "271",
                 "274",
@@ -1011,10 +1032,10 @@
             "value": "/about-us/blog/ruby-and-rails-vs-groovy-and-grails",
             "name": "Ruby and Rails vs Groovy and Grails",
             "edges": [
-                "288",
-                "289",
-                "287",
+                "294",
                 "293",
+                "296",
+                "295",
                 "290",
                 "292",
                 "291"
@@ -1027,8 +1048,8 @@
             "value": "/users/erik-gfesser",
             "name": "Erik Gfesser",
             "edges": [
-                "250",
-                "249"
+                "252",
+                "253"
             ],
             "isExternal": true,
             "exists": true
@@ -1067,9 +1088,9 @@
             "value": "/about-us/blog/getting-closer-web-based-ides",
             "name": "Getting closer to web based IDEs",
             "edges": [
-                "251",
-                "252",
-                "253"
+                "254",
+                "256",
+                "255"
             ],
             "isExternal": true,
             "exists": true
@@ -1079,14 +1100,14 @@
             "value": "/about-us/blog/groovy-16-final-released",
             "name": "Groovy 1.6 Final Released",
             "edges": [
+                "262",
+                "263",
                 "260",
                 "261",
                 "258",
                 "257",
                 "259",
-                "254",
-                "256",
-                "255"
+                "264"
             ],
             "isExternal": true,
             "exists": true
@@ -1096,12 +1117,12 @@
             "value": "/about-us/blog/another-ide-clouds%25E2%2580%25A6",
             "name": "Another IDE for the clouds?",
             "edges": [
-                "262",
-                "263",
+                "270",
+                "269",
+                "268",
                 "267",
                 "266",
-                "265",
-                "264"
+                "265"
             ],
             "isExternal": true,
             "exists": true
@@ -1320,7 +1341,7 @@
             "name": "NVISIA Hires Executive Director of Strategic Marketing",
             "edges": [],
             "isExternal": true,
-            "exists": false
+            "exists": true
         },
         "66": {
             "id": "66",
@@ -1334,16 +1355,21 @@
             "id": "126",
             "value": "/about-us/news/mu-reporter-receives-onc-atcb-20112012-certification",
             "name": "MU Reporter Receives ONC-ATCB 2011/2012 Certification",
-            "edges": [],
+            "edges": [
+                "216",
+                "217",
+                "218"
+            ],
             "isExternal": true,
-            "exists": false
+            "exists": true
         },
         "300": {
             "id": "300",
-            "value": "http://www.springframework.org/node/548",
-            "name": "announced their 2.5 RC1 release",
+            "value": "/user/42/blog-posts",
+            "name": "Blog Post",
             "edges": [],
-            "isExternal": true
+            "isExternal": true,
+            "exists": true
         },
         "69": {
             "id": "69",
@@ -1396,12 +1422,12 @@
             "name": ".NET Technologies",
             "edges": [],
             "isExternal": true,
-            "exists": false
+            "exists": true
         },
         "302": {
             "id": "302",
-            "value": "http://cbcg.net/talks/googleinternals/index.html",
-            "name": "Google had ~450,000 in 2006",
+            "value": "http://www.wellcode.com/home/index.php",
+            "name": "Code-Navigator",
             "edges": [],
             "isExternal": true
         },
@@ -1414,10 +1440,11 @@
         },
         "301": {
             "id": "301",
-            "value": "http://static.springframework.org/spring/docs/2.5.x/reference/jms.html#jms-mdp",
-            "name": "Spring?s answer to MDBs",
+            "value": "/user/42/blog-post",
+            "name": "Blog Posts",
             "edges": [],
-            "isExternal": true
+            "isExternal": true,
+            "exists": true
         },
         "122": {
             "id": "122",
@@ -1428,8 +1455,8 @@
         },
         "304": {
             "id": "304",
-            "value": "http://lucene.apache.org/hadoop/",
-            "name": "Hadoop",
+            "value": "http://static.springframework.org/spring/docs/2.5.x/reference/jms.html#jms-mdp",
+            "name": "Spring?s answer to MDBs",
             "edges": [],
             "isExternal": true
         },
@@ -1445,8 +1472,8 @@
         },
         "303": {
             "id": "303",
-            "value": "http://developer.yahoo.net/blog/archives/2007/07/yahoo-hadoop.html",
-            "name": "interesting article",
+            "value": "http://www.springframework.org/node/548",
+            "name": "announced their 2.5 RC1 release",
             "edges": [],
             "isExternal": true
         },
@@ -1460,29 +1487,29 @@
         },
         "306": {
             "id": "306",
-            "value": "http://en.wikipedia.org/wiki/Amazon_S3",
-            "name": "Amazon S3 Service",
+            "value": "http://developer.yahoo.net/blog/archives/2007/07/yahoo-hadoop.html",
+            "name": "interesting article",
             "edges": [],
             "isExternal": true
         },
         "305": {
             "id": "305",
-            "value": "http://en.wikipedia.org/wiki/Mapreduce",
-            "name": "MapReduce",
+            "value": "http://cbcg.net/talks/googleinternals/index.html",
+            "name": "Google had ~450,000 in 2006",
             "edges": [],
             "isExternal": true
         },
         "308": {
             "id": "308",
-            "value": "http://en.wikipedia.org/wiki/Google_file_system",
-            "name": "Google File System",
+            "value": "http://en.wikipedia.org/wiki/Mapreduce",
+            "name": "MapReduce",
             "edges": [],
             "isExternal": true
         },
         "307": {
             "id": "307",
-            "value": "http://en.wikipedia.org/wiki/Amazon_Web_Services",
-            "name": "Amazon Web Services",
+            "value": "http://lucene.apache.org/hadoop/",
+            "name": "Hadoop",
             "edges": [],
             "isExternal": true
         },
@@ -1496,8 +1523,8 @@
         },
         "309": {
             "id": "309",
-            "value": "http://en.wikipedia.org/wiki/SAWZALL_(Programming_Language)",
-            "name": "Google Sawzall",
+            "value": "http://en.wikipedia.org/wiki/Amazon_S3",
+            "name": "Amazon S3 Service",
             "edges": [],
             "isExternal": true
         },
@@ -1753,7 +1780,7 @@
             "name": "June 2013",
             "edges": [],
             "isExternal": true,
-            "exists": false
+            "exists": true
         },
         "61": {
             "id": "61",
@@ -1761,7 +1788,7 @@
             "name": "November 2013",
             "edges": [],
             "isExternal": false,
-            "exists": false
+            "exists": true
         },
         "130": {
             "id": "130",
@@ -1853,7 +1880,7 @@
             "value": "/user/43/blog-posts",
             "name": "Blog Post",
             "edges": [
-                "216"
+                "219"
             ],
             "isExternal": true,
             "exists": true
@@ -1961,141 +1988,141 @@
         },
         "281": {
             "id": "281",
-            "value": "http://www2.osgi.org/javadoc/r4/org/osgi/framework/BundleActivator.html",
-            "name": "BundleActivator",
-            "edges": [],
-            "isExternal": true
-        },
-        "280": {
-            "id": "280",
-            "value": "http://www.springframework.org/osgi",
-            "name": "Spring?s OSGi dynamic module mechanism",
-            "edges": [],
-            "isExternal": true
-        },
-        "285": {
-            "id": "285",
-            "value": "http://www.eclipse.org/equinox/",
-            "name": "Equinox",
-            "edges": [],
-            "isExternal": true
-        },
-        "284": {
-            "id": "284",
-            "value": "http://www.infoq.com/news/2008/05/jsr277-osgi",
-            "name": "Discussion of JSR277 and OSGi possibly resolving their differences",
-            "edges": [],
-            "isExternal": true
-        },
-        "283": {
-            "id": "283",
-            "value": "http://www.osgi.org/wiki/uploads/Conference/OSGiBestPractices.pdf",
-            "name": "OSGi Best Practices Presentation",
-            "edges": [],
-            "isExternal": true
-        },
-        "282": {
-            "id": "282",
-            "value": "http://www.springframework.org/osgi/simple-service-sample",
-            "name": "example Simple Service",
-            "edges": [],
-            "isExternal": true
-        },
-        "288": {
-            "id": "288",
-            "value": "http://jmatter.org/",
-            "name": "JMatter",
-            "edges": [],
-            "isExternal": true
-        },
-        "289": {
-            "id": "289",
-            "value": "http://en.wikipedia.org/wiki/Ruby_language",
-            "name": "Ruby",
-            "edges": [],
-            "isExternal": true
-        },
-        "286": {
-            "id": "286",
-            "value": "http://felix.apache.org/site/index.html",
-            "name": "Apache Felix",
-            "edges": [],
-            "isExternal": true
-        },
-        "287": {
-            "id": "287",
-            "value": "http://www.trailsframework.org/",
-            "name": "Trails",
-            "edges": [],
-            "isExternal": true
-        },
-        "270": {
-            "id": "270",
-            "value": "http://ejohn.org/blog/tracemonkey/",
-            "name": "TraceMonkey",
-            "edges": [],
-            "isExternal": true
-        },
-        "272": {
-            "id": "272",
-            "value": "http://webkit.org/",
-            "name": "WebKit",
-            "edges": [],
-            "isExternal": true
-        },
-        "271": {
-            "id": "271",
-            "value": "http://blogoscoped.com/google-chrome/15",
-            "name": "building this idea into Chrome",
-            "edges": [],
-            "isExternal": true
-        },
-        "274": {
-            "id": "274",
-            "value": "http://marketshare.hitslink.com/report.aspx?qprid=5",
-            "name": "Google has almost 80% of the search engine market share",
-            "edges": [],
-            "isExternal": true
-        },
-        "273": {
-            "id": "273",
-            "value": "http://marketshare.hitslink.com/report.aspx?qprid=3",
-            "name": "browser trends",
-            "edges": [],
-            "isExternal": true
-        },
-        "275": {
-            "id": "275",
-            "value": "http://www.theserverside.com/tt/articles/article.tss?l=OSGiforBeginners",
-            "name": "OSGi for Beginners",
-            "edges": [],
-            "isExternal": true
-        },
-        "276": {
-            "id": "276",
-            "value": "http://www.osgi.org/Repository/HomePage",
-            "name": "Official OSGi.org Bundle Repository",
-            "edges": [],
-            "isExternal": true
-        },
-        "277": {
-            "id": "277",
-            "value": "http://www.osgi.org/download/rfc-0112_BundleRepository.pdf",
-            "name": "spec",
-            "edges": [],
-            "isExternal": true
-        },
-        "278": {
-            "id": "278",
             "value": "http://static.springframework.org/osgi/docs/1.1.0-m2/reference/html/appendix-osgi-repo.html",
             "name": "Spring OSGi Bundle Repository",
             "edges": [],
             "isExternal": true
         },
-        "279": {
-            "id": "279",
+        "280": {
+            "id": "280",
+            "value": "http://www.osgi.org/download/rfc-0112_BundleRepository.pdf",
+            "name": "spec",
+            "edges": [],
+            "isExternal": true
+        },
+        "285": {
+            "id": "285",
+            "value": "http://www.springframework.org/osgi/simple-service-sample",
+            "name": "example Simple Service",
+            "edges": [],
+            "isExternal": true
+        },
+        "284": {
+            "id": "284",
+            "value": "http://www2.osgi.org/javadoc/r4/org/osgi/framework/BundleActivator.html",
+            "name": "BundleActivator",
+            "edges": [],
+            "isExternal": true
+        },
+        "283": {
+            "id": "283",
+            "value": "http://www.springframework.org/osgi",
+            "name": "Spring?s OSGi dynamic module mechanism",
+            "edges": [],
+            "isExternal": true
+        },
+        "282": {
+            "id": "282",
             "value": "http://felix.apache.org/site/apache-felix-osgi-bundle-repository-obr.html",
             "name": "Apache Felix Bundle Repository",
+            "edges": [],
+            "isExternal": true
+        },
+        "288": {
+            "id": "288",
+            "value": "http://www.eclipse.org/equinox/",
+            "name": "Equinox",
+            "edges": [],
+            "isExternal": true
+        },
+        "289": {
+            "id": "289",
+            "value": "http://felix.apache.org/site/index.html",
+            "name": "Apache Felix",
+            "edges": [],
+            "isExternal": true
+        },
+        "286": {
+            "id": "286",
+            "value": "http://www.osgi.org/wiki/uploads/Conference/OSGiBestPractices.pdf",
+            "name": "OSGi Best Practices Presentation",
+            "edges": [],
+            "isExternal": true
+        },
+        "287": {
+            "id": "287",
+            "value": "http://www.infoq.com/news/2008/05/jsr277-osgi",
+            "name": "Discussion of JSR277 and OSGi possibly resolving their differences",
+            "edges": [],
+            "isExternal": true
+        },
+        "270": {
+            "id": "270",
+            "value": "http://www.smartclient.com/",
+            "name": "IsoMorphic?s SmartClient",
+            "edges": [],
+            "isExternal": true
+        },
+        "272": {
+            "id": "272",
+            "value": "http://www.thewayithink.co.uk/post/Good-Bye-FireBug-Hello-Developer-Tools.aspx",
+            "name": "Developer Tools",
+            "edges": [],
+            "isExternal": true
+        },
+        "271": {
+            "id": "271",
+            "value": "http://blogoscoped.com/google-chrome/4",
+            "name": "Google has answered my rant",
+            "edges": [],
+            "isExternal": true
+        },
+        "274": {
+            "id": "274",
+            "value": "http://blogoscoped.com/google-chrome/15",
+            "name": "building this idea into Chrome",
+            "edges": [],
+            "isExternal": true
+        },
+        "273": {
+            "id": "273",
+            "value": "http://ejohn.org/blog/tracemonkey/",
+            "name": "TraceMonkey",
+            "edges": [],
+            "isExternal": true
+        },
+        "275": {
+            "id": "275",
+            "value": "http://webkit.org/",
+            "name": "WebKit",
+            "edges": [],
+            "isExternal": true
+        },
+        "276": {
+            "id": "276",
+            "value": "http://marketshare.hitslink.com/report.aspx?qprid=3",
+            "name": "browser trends",
+            "edges": [],
+            "isExternal": true
+        },
+        "277": {
+            "id": "277",
+            "value": "http://marketshare.hitslink.com/report.aspx?qprid=5",
+            "name": "Google has almost 80% of the search engine market share",
+            "edges": [],
+            "isExternal": true
+        },
+        "278": {
+            "id": "278",
+            "value": "http://www.theserverside.com/tt/articles/article.tss?l=OSGiforBeginners",
+            "name": "OSGi for Beginners",
+            "edges": [],
+            "isExternal": true
+        },
+        "279": {
+            "id": "279",
+            "value": "http://www.osgi.org/Repository/HomePage",
+            "name": "Official OSGi.org Bundle Repository",
             "edges": [],
             "isExternal": true
         },
@@ -2260,8 +2287,8 @@
         },
         "294": {
             "id": "294",
-            "value": "http://www.theserverside.com/tt/articles/article.tss?l=SpringNewJavaEE",
-            "name": "this article on TSS",
+            "value": "http://jcp.org/en/jsr/detail?id=241",
+            "name": "JSR-241",
             "edges": [],
             "isExternal": true
         },
@@ -2278,70 +2305,68 @@
         },
         "293": {
             "id": "293",
-            "value": "http://groovy.codehaus.org/groovy-jdk.html",
-            "name": "Groovy JDK",
+            "value": "http://en.wikipedia.org/wiki/Groovy",
+            "name": "Groovy",
             "edges": [],
             "isExternal": true
         },
         "296": {
             "id": "296",
-            "value": "/user/45/blog-post?page=1",
-            "name": "last ?",
+            "value": "http://groovy.codehaus.org/groovy-jdk.html",
+            "name": "Groovy JDK",
             "edges": [],
-            "isExternal": false,
-            "exists": true
+            "isExternal": true
         },
         "295": {
             "id": "295",
+            "value": "http://jcp.org/en/jsr/detail?id=223",
+            "name": "JSR-223",
+            "edges": [],
+            "isExternal": true
+        },
+        "290": {
+            "id": "290",
+            "value": "http://www.trailsframework.org/",
+            "name": "Trails",
+            "edges": [],
+            "isExternal": true
+        },
+        "292": {
+            "id": "292",
+            "value": "http://en.wikipedia.org/wiki/Ruby_language",
+            "name": "Ruby",
+            "edges": [],
+            "isExternal": true
+        },
+        "291": {
+            "id": "291",
+            "value": "http://jmatter.org/",
+            "name": "JMatter",
+            "edges": [],
+            "isExternal": true
+        },
+        "297": {
+            "id": "297",
+            "value": "http://www.theserverside.com/tt/articles/article.tss?l=SpringNewJavaEE",
+            "name": "this article on TSS",
+            "edges": [],
+            "isExternal": true
+        },
+        "298": {
+            "id": "298",
             "value": "/user/45/blog-posts?page=1",
             "name": "last ?",
             "edges": [],
             "isExternal": false,
             "exists": true
         },
-        "290": {
-            "id": "290",
-            "value": "http://en.wikipedia.org/wiki/Groovy",
-            "name": "Groovy",
-            "edges": [],
-            "isExternal": true
-        },
-        "292": {
-            "id": "292",
-            "value": "http://jcp.org/en/jsr/detail?id=223",
-            "name": "JSR-223",
-            "edges": [],
-            "isExternal": true
-        },
-        "291": {
-            "id": "291",
-            "value": "http://jcp.org/en/jsr/detail?id=241",
-            "name": "JSR-241",
-            "edges": [],
-            "isExternal": true
-        },
-        "297": {
-            "id": "297",
-            "value": "/user/42/blog-posts",
-            "name": "Blog Post",
-            "edges": [],
-            "isExternal": true,
-            "exists": true
-        },
-        "298": {
-            "id": "298",
-            "value": "/user/42/blog-post",
-            "name": "Blog Posts",
-            "edges": [],
-            "isExternal": true,
-            "exists": true
-        },
         "299": {
             "id": "299",
-            "value": "http://www.wellcode.com/home/index.php",
-            "name": "Code-Navigator",
+            "value": "/user/45/blog-post?page=1",
+            "name": "last ?",
             "edges": [],
-            "isExternal": true
+            "isExternal": false,
+            "exists": true
         },
         "88": {
             "id": "88",
@@ -2361,19 +2386,19 @@
             "name": "Upgrading Open Source Frameworks ? Part II",
             "edges": [],
             "isExternal": false,
-            "exists": false
+            "exists": true
         },
         "240": {
             "id": "240",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-25",
-            "name": "ENUNCIATE-25",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-22",
+            "name": "ENUNCIATE-22",
             "edges": [],
             "isExternal": true
         },
         "241": {
             "id": "241",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-1",
-            "name": "ENUNCIATE-1",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-23",
+            "name": "ENUNCIATE-23",
             "edges": [],
             "isExternal": true
         },
@@ -2410,7 +2435,7 @@
             "value": "/user/45/blog-posts",
             "name": "Blog Post",
             "edges": [
-                "295"
+                "298"
             ],
             "isExternal": true,
             "exists": true
@@ -2420,7 +2445,7 @@
             "value": "/about-us/blog/spring-new-java-ee",
             "name": "Spring as the new Java EE",
             "edges": [
-                "294"
+                "297"
             ],
             "isExternal": true,
             "exists": true
@@ -2430,8 +2455,8 @@
             "value": "/users/mark-panthofer",
             "name": "Mark Panthofer",
             "edges": [
-                "297",
-                "298"
+                "300",
+                "301"
             ],
             "isExternal": true,
             "exists": true
@@ -2441,7 +2466,7 @@
             "value": "/user/45/blog-post",
             "name": "Blog Posts",
             "edges": [
-                "296"
+                "299"
             ],
             "isExternal": true,
             "exists": true
@@ -2462,35 +2487,35 @@
         },
         "245": {
             "id": "245",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-49",
-            "name": "ENUNCIATE-49",
-            "edges": [],
-            "isExternal": true
-        },
-        "244": {
-            "id": "244",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-7",
-            "name": "ENUNCIATE-7",
-            "edges": [],
-            "isExternal": true
-        },
-        "243": {
-            "id": "243",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-5",
-            "name": "ENUNCIATE-5",
-            "edges": [],
-            "isExternal": true
-        },
-        "242": {
-            "id": "242",
             "value": "http://jira.codehaus.org/browse/ENUNCIATE-2",
             "name": "ENUNCIATE-2",
             "edges": [],
             "isExternal": true
         },
+        "244": {
+            "id": "244",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-1",
+            "name": "ENUNCIATE-1",
+            "edges": [],
+            "isExternal": true
+        },
+        "243": {
+            "id": "243",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-25",
+            "name": "ENUNCIATE-25",
+            "edges": [],
+            "isExternal": true
+        },
+        "242": {
+            "id": "242",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-24",
+            "name": "ENUNCIATE-24",
+            "edges": [],
+            "isExternal": true
+        },
         "249": {
             "id": "249",
-            "value": "/user/44/blog-posts",
+            "value": "/user/52/blog-posts",
             "name": "Blog Post",
             "edges": [],
             "isExternal": true,
@@ -2498,170 +2523,168 @@
         },
         "248": {
             "id": "248",
-            "value": "http://online.wsj.com/article/SB122636897819516185.html",
-            "name": "reported",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-49",
+            "name": "ENUNCIATE-49",
             "edges": [],
             "isExternal": true
         },
         "247": {
             "id": "247",
-            "value": "/user/52/blog-post",
-            "name": "Blog Posts",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-7",
+            "name": "ENUNCIATE-7",
             "edges": [],
-            "isExternal": true,
-            "exists": true
+            "isExternal": true
         },
         "246": {
             "id": "246",
-            "value": "/user/52/blog-posts",
-            "name": "Blog Post",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-5",
+            "name": "ENUNCIATE-5",
             "edges": [],
-            "isExternal": true,
-            "exists": true
+            "isExternal": true
         },
         "230": {
             "id": "230",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-13",
-            "name": "ENUNCIATE-13",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-8",
+            "name": "ENUNCIATE-8",
             "edges": [],
             "isExternal": true
         },
         "239": {
             "id": "239",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-24",
-            "name": "ENUNCIATE-24",
-            "edges": [],
-            "isExternal": true
-        },
-        "232": {
-            "id": "232",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-15",
-            "name": "ENUNCIATE-15",
-            "edges": [],
-            "isExternal": true
-        },
-        "231": {
-            "id": "231",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-14",
-            "name": "ENUNCIATE-14",
-            "edges": [],
-            "isExternal": true
-        },
-        "234": {
-            "id": "234",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-12",
-            "name": "ENUNCIATE-12",
-            "edges": [],
-            "isExternal": true
-        },
-        "233": {
-            "id": "233",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-16",
-            "name": "ENUNCIATE-16",
-            "edges": [],
-            "isExternal": true
-        },
-        "236": {
-            "id": "236",
             "value": "http://jira.codehaus.org/browse/ENUNCIATE-21",
             "name": "ENUNCIATE-21",
             "edges": [],
             "isExternal": true
         },
+        "232": {
+            "id": "232",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-18",
+            "name": "ENUNCIATE-18",
+            "edges": [],
+            "isExternal": true
+        },
+        "231": {
+            "id": "231",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-17",
+            "name": "ENUNCIATE-17",
+            "edges": [],
+            "isExternal": true
+        },
+        "234": {
+            "id": "234",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-14",
+            "name": "ENUNCIATE-14",
+            "edges": [],
+            "isExternal": true
+        },
+        "233": {
+            "id": "233",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-13",
+            "name": "ENUNCIATE-13",
+            "edges": [],
+            "isExternal": true
+        },
+        "236": {
+            "id": "236",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-16",
+            "name": "ENUNCIATE-16",
+            "edges": [],
+            "isExternal": true
+        },
         "235": {
             "id": "235",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-19",
-            "name": "ENUNCIATE-19",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-15",
+            "name": "ENUNCIATE-15",
             "edges": [],
             "isExternal": true
         },
         "238": {
             "id": "238",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-23",
-            "name": "ENUNCIATE-23",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-19",
+            "name": "ENUNCIATE-19",
             "edges": [],
             "isExternal": true
         },
         "237": {
             "id": "237",
-            "value": "http://jira.codehaus.org/browse/ENUNCIATE-22",
-            "name": "ENUNCIATE-22",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-12",
+            "name": "ENUNCIATE-12",
             "edges": [],
             "isExternal": true
         },
         "262": {
             "id": "262",
-            "value": "http://heroku.com/",
-            "name": "Heroku",
+            "value": "http://www.wired.com/reviews/",
+            "name": "product reviews portion of their site",
             "edges": [],
             "isExternal": true
         },
         "263": {
             "id": "263",
-            "value": "http://services.alphaworks.ibm.com/graduated/qedwiki.html",
-            "name": "QEDWiki",
-            "edges": [],
-            "isExternal": true
-        },
-        "260": {
-            "id": "260",
             "value": "http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html",
             "name": "TIOBE index",
             "edges": [],
             "isExternal": true
         },
+        "260": {
+            "id": "260",
+            "value": "http://www.springsource.com/files/Wired.com%2520Case%2520study..pdf",
+            "name": "case study",
+            "edges": [],
+            "isExternal": true
+        },
         "261": {
             "id": "261",
-            "value": "http://www.infoq.com/articles/groovy-1-6",
-            "name": "here",
+            "value": "http://www.wired.com/",
+            "name": "Wired.com",
             "edges": [],
             "isExternal": true
         },
         "269": {
             "id": "269",
-            "value": "http://www.thewayithink.co.uk/post/Good-Bye-FireBug-Hello-Developer-Tools.aspx",
-            "name": "Developer Tools",
-            "edges": [],
-            "isExternal": true
-        },
-        "268": {
-            "id": "268",
-            "value": "http://blogoscoped.com/google-chrome/4",
-            "name": "Google has answered my rant",
-            "edges": [],
-            "isExternal": true
-        },
-        "267": {
-            "id": "267",
-            "value": "http://www.smartclient.com/",
-            "name": "IsoMorphic?s SmartClient",
-            "edges": [],
-            "isExternal": true
-        },
-        "266": {
-            "id": "266",
             "value": "http://www.wavemaker.com/",
             "name": "WaveMaker",
             "edges": [],
             "isExternal": true
         },
-        "265": {
-            "id": "265",
+        "268": {
+            "id": "268",
             "value": "http://ajaxian.com/archives/wavemaker-ide-offers-deployment-to-amazon",
             "name": "entry",
             "edges": [],
             "isExternal": true
         },
-        "264": {
-            "id": "264",
+        "267": {
+            "id": "267",
             "value": "http://www-01.ibm.com/software/info/mashup-center/",
             "name": "mashup products",
             "edges": [],
             "isExternal": true
         },
+        "266": {
+            "id": "266",
+            "value": "http://services.alphaworks.ibm.com/graduated/qedwiki.html",
+            "name": "QEDWiki",
+            "edges": [],
+            "isExternal": true
+        },
+        "265": {
+            "id": "265",
+            "value": "http://heroku.com/",
+            "name": "Heroku",
+            "edges": [],
+            "isExternal": true
+        },
+        "264": {
+            "id": "264",
+            "value": "http://www.infoq.com/articles/groovy-1-6",
+            "name": "here",
+            "edges": [],
+            "isExternal": true
+        },
         "250": {
             "id": "250",
-            "value": "/user/44/blog-post",
+            "value": "/user/52/blog-post",
             "name": "Blog Posts",
             "edges": [],
             "isExternal": true,
@@ -2669,64 +2692,66 @@
         },
         "251": {
             "id": "251",
-            "value": "http://labs.mozilla.com/2009/02/introducing-bespin/",
-            "name": "Bespin announcement",
+            "value": "http://online.wsj.com/article/SB122636897819516185.html",
+            "name": "reported",
             "edges": [],
             "isExternal": true
         },
         "252": {
             "id": "252",
-            "value": "http://www.infoq.com/news/2009/02/web-based-ide",
-            "name": "Web-based IDEs to become mainstream?",
+            "value": "/user/44/blog-posts",
+            "name": "Blog Post",
             "edges": [],
-            "isExternal": true
+            "isExternal": true,
+            "exists": true
         },
         "258": {
             "id": "258",
-            "value": "http://www.wired.com/",
-            "name": "Wired.com",
+            "value": "http://groovy.codehaus.org/Grape",
+            "name": "Grape module and dependency system",
             "edges": [],
             "isExternal": true
         },
         "257": {
             "id": "257",
-            "value": "http://www.springsource.com/files/Wired.com%2520Case%2520study..pdf",
-            "name": "case study",
-            "edges": [],
-            "isExternal": true
-        },
-        "259": {
-            "id": "259",
-            "value": "http://www.wired.com/reviews/",
-            "name": "product reviews portion of their site",
-            "edges": [],
-            "isExternal": true
-        },
-        "254": {
-            "id": "254",
             "value": "http://glaforge.free.fr/weblog/index.php?itemid=263",
             "name": "final release of Groovy 1.6",
             "edges": [],
             "isExternal": true
         },
-        "253": {
-            "id": "253",
-            "value": "http://nvisia.com/techs/?p=141",
-            "name": "my previous thoughts on the matter",
-            "edges": [],
-            "isExternal": true
-        },
-        "256": {
-            "id": "256",
+        "259": {
+            "id": "259",
             "value": "http://www.grailsblog.com/archive/show?id=3",
             "name": "gaining interest",
             "edges": [],
             "isExternal": true
         },
+        "254": {
+            "id": "254",
+            "value": "http://labs.mozilla.com/2009/02/introducing-bespin/",
+            "name": "Bespin announcement",
+            "edges": [],
+            "isExternal": true
+        },
+        "253": {
+            "id": "253",
+            "value": "/user/44/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "256": {
+            "id": "256",
+            "value": "http://nvisia.com/techs/?p=141",
+            "name": "my previous thoughts on the matter",
+            "edges": [],
+            "isExternal": true
+        },
         "255": {
             "id": "255",
-            "value": "http://groovy.codehaus.org/Grape",
-            "name": "Grape module and dependency system",
+            "value": "http://www.infoq.com/news/2009/02/web-based-ide",
+            "name": "Web-based IDEs to become mainstream?",
             "edges": [],
             "isExternal": true
         }

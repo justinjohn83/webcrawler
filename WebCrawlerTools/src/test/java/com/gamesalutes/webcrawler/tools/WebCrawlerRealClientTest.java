@@ -33,7 +33,7 @@ public class WebCrawlerRealClientTest {
 		client.setConnector(new HttpWebConnector());
 		client.setLinkListener(linkListener);
 		// set recursion limit to 4
-		client.setDepthLimit(4);
+		//client.setDepthLimit(2);
 		
 		client.initialize();
 		
