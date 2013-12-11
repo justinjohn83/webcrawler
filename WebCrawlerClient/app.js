@@ -5,7 +5,7 @@ app.get('/', function(req, res) {
    res.sendfile('./index.html');
 });
 
-app.get("/js/*",function(req,res){
+app.get("/(js)|(data)/*",function(req,res){
 	  res.sendfile(__dirname + req.path);
 	});
  

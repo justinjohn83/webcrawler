@@ -45,8 +45,14 @@ public class WebCrawlerClientTest {
 				
 			}
 
-			public void onVisited(Link link) {
+			public void onLink(Link link) {
 				visitedLinks.add(link);
+				if(link.isExternal()) {
+					externalLinks.add(link);
+				}
+				else if(link.isInternal()){
+					internalLinks.add(link);
+				}
 			}
 
 			public void onVisitSuccess(Link link) {
@@ -59,14 +65,6 @@ public class WebCrawlerClientTest {
 			public void onEnd(String baseUrl) {
 				// TODO Auto-generated method stub
 				
-			}
-
-			public void onExternalLink(Link link) {
-				externalLinks.add(link);
-			}
-
-			public void onInternalLink(Link link) {
-				internalLinks.add(link);
 			}
 			
 		});

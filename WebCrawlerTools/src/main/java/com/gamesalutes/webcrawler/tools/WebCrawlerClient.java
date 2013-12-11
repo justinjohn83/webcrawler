@@ -2,6 +2,7 @@ package com.gamesalutes.webcrawler.tools;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Map;
@@ -23,10 +24,12 @@ public final class WebCrawlerClient implements Disposable {
 
 	private WebConnector connector;
 	private LinkParser linkParser;
-	private LinkListener linkListener;
+	private LinkListener linkListener = new DefaultLinkListener();
 	
 	private final Logger logger  = LoggerFactory.getLogger(getClass());
 	private int numWorkerThreads = 10;
+	private int depthLimit = -1;
+	
 	private ExecutorService httpService;
 	
 	public WebCrawlerClient() {
@@ -36,8 +39,6 @@ public final class WebCrawlerClient implements Disposable {
 		httpService = Executors.newFixedThreadPool(numWorkerThreads);
 	}
 	
-	// TODO: Need to multi-thread the connections for improved performance - 
-
 	private static class LinkData {
 		private final Link link;
 		private final Map<String,String> pageLinks;
@@ -53,6 +54,24 @@ public final class WebCrawlerClient implements Disposable {
 
 		public Map<String, String> getPageLinks() {
 			return pageLinks;
+		}
+	}
+	
+	private static class QueueData {
+		private final Future<LinkData> linkFuture;
+		private final int depth;
+		
+		public QueueData(Future<LinkData> linkFuture,int depth) {
+			this.linkFuture = linkFuture;
+			this.depth = depth;
+		}
+
+		public Future<LinkData> getLinkFuture() {
+			return linkFuture;
+		}
+
+		public int getDepth() {
+			return depth;
 		}
 	}
 	
@@ -88,63 +107,58 @@ public final class WebCrawlerClient implements Disposable {
 			throw new IllegalStateException("initialize not called");
 		}
 		
-		Set<Link> visitedLinks  = Collections.synchronizedSet(new LinkedHashSet<Link>());
-		Queue<Future<LinkData>> visitQueue = new ConcurrentLinkedQueue<Future<LinkData>>();
+		Set<URI> visitedUrls  = Collections.synchronizedSet(new LinkedHashSet<URI>());
+		Set<Link> visitedLinks = Collections.synchronizedSet(new LinkedHashSet<Link>());
+		
+		Queue<QueueData> visitQueue = new ConcurrentLinkedQueue<QueueData>();
 		
 		Link baseLink = new Link(baseUrl,baseName);
 
 		connector.setBaseUrl(baseUrl);
 		
-		visitQueue.offer(getFutureLink(baseLink));
+		visitQueue.offer(new QueueData(getFutureLink(baseLink),0));
+		visitedUrls.add(baseLink.getTargetUrl());
 		visitedLinks.add(baseLink);
 		
-		if(this.linkListener != null) {
-			linkListener.onBegin(baseUrl);
-		}
+		linkListener.onBegin(baseUrl);
+		linkListener.onLink(baseLink);
+
 		// BFS
 		while(!visitQueue.isEmpty()) {
-			Future<LinkData> linkFuture = visitQueue.poll();
-			
-			// grab resources for this url
+			final QueueData queueData = visitQueue.poll();
+			if(logger.isDebugEnabled()) {
+				logger.debug("Current link depth=" + queueData.getDepth());
+			}
 			try {
-				
-				LinkData link = linkFuture.get();
-				if(this.linkListener != null) {
-					linkListener.onVisited(link.getLink());
-				}
+				// grab resources for this url
+				final LinkData link = queueData.getLinkFuture().get();
 					
 				// visit was successful we got data back - 200 response code
 				if(link.getPageLinks() != null) {
-					if(this.linkListener != null) {
-						linkListener.onVisitSuccess(link.getLink());
-					}
-					Map<String,String> pageLinks = link.getPageLinks();
-					for(Map.Entry<String, String> E : pageLinks.entrySet()) {
-						Link targetLink = new Link(link.getLink(),E.getKey(),E.getValue());
-						// make sure haven't already visited
-						if(visitedLinks.add(targetLink)) {
-							Link baseToTarget = new Link(baseLink,E.getKey(),E.getValue());
-							if(!baseToTarget.isExternal()) {
-								visitQueue.offer(getFutureLink(targetLink));
-								if(this.linkListener != null) {
-									linkListener.onInternalLink(targetLink);
+					linkListener.onVisitSuccess(link.getLink());
+					// make sure we haven't exceeded the recursion limit
+					if(this.depthLimit < 0 || queueData.getDepth() <= this.depthLimit) {
+						Map<String,String> pageLinks = link.getPageLinks();
+						for(Map.Entry<String, String> E : pageLinks.entrySet()) {
+							Link targetLink = new Link(link.getLink(),E.getKey(),E.getValue());
+							// make sure haven't already visited
+							if(visitedUrls.add(targetLink.getTargetUrl())) {
+								visitedLinks.add(targetLink);
+								Link baseToTarget = new Link(baseLink,E.getKey(),E.getValue());
+								linkListener.onLink(targetLink);
+								// only recurse for internal link
+								if(!baseToTarget.isExternal()) {
+									visitQueue.offer(new QueueData(getFutureLink(targetLink),queueData.getDepth() + 1));
 								}
 							}
-							// external link - stop the recursion but note the link
-							else {
-								if(this.linkListener != null) {
-									linkListener.onExternalLink(targetLink);
-								}
-							}
-						}
-						
-					}
+							
+						} // for
+					} // if depth limit not exceeded
 				}
+				// link visit failed
 				else {
 					logger.warn("Unable to visit link=" + link + ";baseUrl=" + baseUrl);
-					if(this.linkListener != null) {
-						this.linkListener.onVisitFailed(link.getLink());
-					}
+					this.linkListener.onVisitFailed(link.getLink());
 				}
 				
 			}
@@ -153,9 +167,7 @@ public final class WebCrawlerClient implements Disposable {
 			}
 		} // while
 		
-		if(this.linkListener != null) {
-			this.linkListener.onEnd(baseUrl);
-		}
+		this.linkListener.onEnd(baseUrl);
 		
 		return visitedLinks;
 	}
@@ -185,6 +197,9 @@ public final class WebCrawlerClient implements Disposable {
 	}
 
 	public void setLinkListener(LinkListener linkListener) {
+		if(linkListener == null) {
+			linkListener = new DefaultLinkListener();
+		}
 		this.linkListener = linkListener;
 	}
 
@@ -198,6 +213,14 @@ public final class WebCrawlerClient implements Disposable {
 
 	public void setNumWorkerThreads(int numWorkerThreads) {
 		this.numWorkerThreads = numWorkerThreads;
+	}
+
+	public int getDepthLimit() {
+		return depthLimit;
+	}
+
+	public void setDepthLimit(int depthLimit) {
+		this.depthLimit = depthLimit;
 	}
 
 }

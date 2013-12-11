@@ -1,0 +1,2734 @@
+{
+    "nodes": {
+        "35": {
+            "id": "35",
+            "value": "/nvisia-careers/benefits",
+            "name": "Benefits",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "36": {
+            "id": "36",
+            "value": "/nvisia-careers/send-us-your-resume",
+            "name": "Send Us Your Resume",
+            "edges": [
+                "108"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "33": {
+            "id": "33",
+            "value": "/nvisia-careers/open-positions-chicago",
+            "name": "Open Positions Chicago",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "159": {
+            "id": "159",
+            "value": "http://weblogs.asp.net/scottgu/archive/2007/11/13/asp-net-mvc-framework-part-1.aspx",
+            "name": "part 1",
+            "edges": [],
+            "isExternal": true
+        },
+        "34": {
+            "id": "34",
+            "value": "/nvisia-careers/open-positions-milwaukee/java-technical-architect-milwaukee-wi",
+            "name": "Open Positions Milwaukee",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "158": {
+            "id": "158",
+            "value": "http://www.castleproject.org/monorail/",
+            "name": "http://www.castleproject.org/monorail/",
+            "edges": [],
+            "isExternal": true
+        },
+        "39": {
+            "id": "39",
+            "value": "/news/nvisia-article-featured-in-cio-network-world-and-computer-world",
+            "name": "NVISIA Article Featured in CIO, Network World and Computer World",
+            "edges": [
+                "109",
+                "110",
+                "111"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "157": {
+            "id": "157",
+            "value": "http://www.sun.com/software/opensource/java/faq.jsp#b",
+            "name": "OpenJDK",
+            "edges": [],
+            "isExternal": true
+        },
+        "156": {
+            "id": "156",
+            "value": "http://tirania.org/blog/archive/2009/Apr-02-1.html",
+            "name": "this example",
+            "edges": [],
+            "isExternal": true
+        },
+        "37": {
+            "id": "37",
+            "value": "/technology-consulting/enterprise-software-development",
+            "name": "Learn More",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "155": {
+            "id": "155",
+            "value": "http://mono-project.com/FAQ:_Licensing",
+            "name": "Mono licensing FAQ",
+            "edges": [],
+            "isExternal": true
+        },
+        "38": {
+            "id": "38",
+            "value": "/technology-consulting/nvisia?s-actionable-roadmap",
+            "name": "Learn More",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "154": {
+            "id": "154",
+            "value": "http://www.novell.com/products/desktop/moonlight_faq.html",
+            "name": "see the Moonlight FAQ",
+            "edges": [],
+            "isExternal": true
+        },
+        "152": {
+            "id": "152",
+            "value": "http://mono-project.com/Roadmap",
+            "name": "roadmap",
+            "edges": [],
+            "isExternal": true
+        },
+        "153": {
+            "id": "153",
+            "value": "http://web.archive.org/web/20030424174805/http://mailserver.di.unipi.it/pipermail/dotnet-sscli/msg00218.html",
+            "name": "can be used royalty free",
+            "edges": [],
+            "isExternal": true
+        },
+        "150": {
+            "id": "150",
+            "value": "http://tirania.org/blog/archive/2009/Apr-02.html",
+            "name": "open sourced their ASP.NET MVC api",
+            "edges": [],
+            "isExternal": true
+        },
+        "151": {
+            "id": "151",
+            "value": "http://mono-project.com/",
+            "name": "Mono project",
+            "edges": [],
+            "isExternal": true
+        },
+        "43": {
+            "id": "43",
+            "value": "industry-solutions/insurance-services",
+            "name": "Insurance",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "42": {
+            "id": "42",
+            "value": "http://www.nvisia.com//news/nvisia-shares-insights-on-innovation-and-agility-at-camp-it",
+            "name": "Shaun Lovick and Mark Panthofer presented ?Innovation & Agility: Leveraging Mobility to Prime Your Business Innovation Engine? at the CAMP IT event on Tuesday...",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "41": {
+            "id": "41",
+            "value": "/news/nvisia-shares-insights-on-innovation-and-agility-at-camp-it",
+            "name": "NVISIA Shares Insights on Innovation and Agility at CAMP IT",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "40": {
+            "id": "40",
+            "value": "http://www.nvisia.com//news/nvisia-article-featured-in-cio-network-world-and-computer-world",
+            "name": "NVISIA?s latest article shares key insights into the adoption of Single Page Applications.\n\n\nWith more mobile devices on the planet today than people, IT needs a...",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "202": {
+            "id": "202",
+            "value": "/about-us/blog/open-source-mainframes",
+            "name": "Open Source Mainframes",
+            "edges": [
+                "302",
+                "304",
+                "303",
+                "306",
+                "305",
+                "308",
+                "307",
+                "310",
+                "309"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "203": {
+            "id": "203",
+            "value": "http://www.infoq.com/interviews/Spring-3.0-Rod-Johnson;jsessionid=3067F8517FC7F329C295940642ED8B6D#",
+            "name": "interview",
+            "edges": [],
+            "isExternal": true
+        },
+        "204": {
+            "id": "204",
+            "value": "http://www.rencontres-spring.com/public/06_spring_juergen_hoeller.pdf",
+            "name": "presentation",
+            "edges": [],
+            "isExternal": true
+        },
+        "205": {
+            "id": "205",
+            "value": "/users/courtney-faulkner",
+            "name": "Courtney Faulkner",
+            "edges": [
+                "312",
+                "311"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "200": {
+            "id": "200",
+            "value": "/about-us/blog/open-source-code-navigator",
+            "name": "Open source code navigator",
+            "edges": [
+                "299"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "201": {
+            "id": "201",
+            "value": "/about-us/blog/spring-framework-25-rc1-released",
+            "name": "Spring Framework 2.5 RC1 released",
+            "edges": [
+                "300",
+                "301"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "22": {
+            "id": "22",
+            "value": "/industry-solutions/financial-services",
+            "name": "Financial",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "23": {
+            "id": "23",
+            "value": "/industry-solutions/insurance-services",
+            "name": "Insurance Services",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "169": {
+            "id": "169",
+            "value": "/user/47/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "24": {
+            "id": "24",
+            "value": "/about-us",
+            "name": "About Us",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "25": {
+            "id": "25",
+            "value": "/about-us/philosophy-and-leadership",
+            "name": "Philosophy and Leadership",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "206": {
+            "id": "206",
+            "value": "http://www.springsource.com/",
+            "name": "SpringSource",
+            "edges": [],
+            "isExternal": true
+        },
+        "26": {
+            "id": "26",
+            "value": "/about-us/history",
+            "name": "History",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "166": {
+            "id": "166",
+            "value": "http://msdn2.microsoft.com/en-us/library/bb399572.aspx",
+            "name": "here",
+            "edges": [],
+            "isExternal": true
+        },
+        "207": {
+            "id": "207",
+            "value": "http://www.springsource.com/g2one",
+            "name": "acquiring G2One",
+            "edges": [],
+            "isExternal": true
+        },
+        "27": {
+            "id": "27",
+            "value": "/about-us/culture",
+            "name": "Culture",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "165": {
+            "id": "165",
+            "value": "http://weblogs.asp.net/scottgu/archive/2007/05/19/using-linq-to-sql-part-1.aspx",
+            "name": "Here?s",
+            "edges": [],
+            "isExternal": true
+        },
+        "208": {
+            "id": "208",
+            "value": "http://grails.org/",
+            "name": "Grails",
+            "edges": [],
+            "isExternal": true
+        },
+        "28": {
+            "id": "28",
+            "value": "/about-us/clients",
+            "name": "Clients",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "168": {
+            "id": "168",
+            "value": "/about-us/blog/enunciate-%25E2%2580%2593-articulate-your-web-api",
+            "name": "Enunciate ? articulate your web api",
+            "edges": [
+                "240",
+                "241",
+                "219",
+                "245",
+                "244",
+                "243",
+                "242",
+                "220",
+                "221",
+                "222",
+                "223",
+                "224",
+                "225",
+                "226",
+                "230",
+                "227",
+                "228",
+                "229",
+                "239",
+                "232",
+                "231",
+                "234",
+                "233",
+                "236",
+                "235",
+                "238",
+                "237"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "209": {
+            "id": "209",
+            "value": "http://www.nabble.com/G2One-bought-by-SpringSource--td20435169.html",
+            "name": "Grails mailing list response to the acquisition",
+            "edges": [],
+            "isExternal": true
+        },
+        "29": {
+            "id": "29",
+            "value": "/news",
+            "name": "NVISIA News",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "167": {
+            "id": "167",
+            "value": "/about-us/blog/commercialized-open-source",
+            "name": "Commercialized open source",
+            "edges": [
+                "217",
+                "218"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "3": {
+            "id": "3",
+            "value": "/about-us/news",
+            "name": "View All News Stories",
+            "edges": [
+                "67",
+                "49",
+                "66",
+                "48",
+                "68",
+                "59",
+                "58",
+                "57",
+                "47",
+                "56",
+                "55",
+                "64",
+                "51",
+                "65",
+                "52",
+                "62",
+                "53",
+                "63",
+                "54",
+                "60",
+                "61",
+                "50"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "161": {
+            "id": "161",
+            "value": "http://weblogs.asp.net/scottgu/archive/2007/12/06/asp-net-mvc-framework-part-3-passing-viewdata-from-controllers-to-views.aspx",
+            "name": "part 3",
+            "edges": [],
+            "isExternal": true
+        },
+        "2": {
+            "id": "2",
+            "value": "#main-content",
+            "name": "Skip to main content",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "162": {
+            "id": "162",
+            "value": "http://weblogs.asp.net/scottgu/archive/2007/12/09/asp-net-mvc-framework-part-4-handling-form-edit-and-post-scenarios.aspx",
+            "name": "part 4",
+            "edges": [],
+            "isExternal": true
+        },
+        "1": {
+            "id": "1",
+            "value": "http://www.nvisia.com",
+            "name": "nvisia",
+            "edges": [
+                "19",
+                "35",
+                "17",
+                "36",
+                "18",
+                "33",
+                "15",
+                "34",
+                "16",
+                "39",
+                "13",
+                "14",
+                "37",
+                "11",
+                "38",
+                "12",
+                "21",
+                "20",
+                "43",
+                "42",
+                "41",
+                "40",
+                "45",
+                "44",
+                "46",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "3",
+                "2",
+                "10",
+                "30",
+                "7",
+                "6",
+                "32",
+                "5",
+                "31",
+                "4",
+                "9",
+                "8"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "163": {
+            "id": "163",
+            "value": "http://msdn2.microsoft.com/en-us/library/bb425822.aspx",
+            "name": "LINQ to SQL",
+            "edges": [],
+            "isExternal": true
+        },
+        "164": {
+            "id": "164",
+            "value": "http://msdn.microsoft.com/msdnmag/issues/04/05/c20/default.aspx#S4",
+            "name": "partial class",
+            "edges": [],
+            "isExternal": true
+        },
+        "7": {
+            "id": "7",
+            "value": "/why-nvisia/authentic-partner",
+            "name": "Authentic Partner",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "30": {
+            "id": "30",
+            "value": "/our-tech-blog",
+            "name": "NVISIA Tech Blog",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "6": {
+            "id": "6",
+            "value": "/why-nvisia",
+            "name": "Why NVISIA?",
+            "edges": [
+                "98",
+                "99",
+                "100"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "5": {
+            "id": "5",
+            "value": "/connect-with-us",
+            "name": "CONNECT WITH US",
+            "edges": [
+                "97",
+                "96",
+                "95"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "32": {
+            "id": "32",
+            "value": "/nvisia-careers/your-career",
+            "name": "Your Career",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "4": {
+            "id": "4",
+            "value": "/about-us/blog",
+            "name": "TECH BLOG",
+            "edges": [
+                "79",
+                "78",
+                "77",
+                "82",
+                "83",
+                "80",
+                "81",
+                "86",
+                "87",
+                "84",
+                "85",
+                "69",
+                "94",
+                "93",
+                "92",
+                "91",
+                "90",
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "88",
+                "76",
+                "89"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "31": {
+            "id": "31",
+            "value": "/nvisia-careers",
+            "name": "NVISIA Careers",
+            "edges": [
+                "107",
+                "106",
+                "105",
+                "104",
+                "103",
+                "102"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "160": {
+            "id": "160",
+            "value": "http://weblogs.asp.net/scottgu/archive/2007/12/03/asp-net-mvc-framework-part-2-url-routing.aspx",
+            "name": "part 2",
+            "edges": [],
+            "isExternal": true
+        },
+        "9": {
+            "id": "9",
+            "value": "/master-practitioners",
+            "name": "Master Practitioners",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "8": {
+            "id": "8",
+            "value": "/connected-delivery-platform",
+            "name": "Connected Delivery",
+            "edges": [
+                "101"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "211": {
+            "id": "211",
+            "value": "/user/59/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "212": {
+            "id": "212",
+            "value": "/user/59/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "210": {
+            "id": "210",
+            "value": "http://www.theregister.co.uk/2008/11/11/springsource_g21/",
+            "name": "SpringSource buys Groovy and Grails Specialist ? The Register",
+            "edges": [],
+            "isExternal": true
+        },
+        "215": {
+            "id": "215",
+            "value": "http://www.technologyexecutivesclub.com/Events/2013/0513milwaukee.php",
+            "name": "Detail on the Milwaukee TEC Event",
+            "edges": [],
+            "isExternal": true
+        },
+        "216": {
+            "id": "216",
+            "value": "/",
+            "name": "more",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "213": {
+            "id": "213",
+            "value": "nvisia-career-interest-form",
+            "name": "Apply or Inquire Now!",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "19": {
+            "id": "19",
+            "value": "/industry-solutions",
+            "name": "Industry Solutions",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "214": {
+            "id": "214",
+            "value": "http://www.nvisia.com/sites/default/files/NVISIAMobileBrochureForWeb.pdf",
+            "name": "NVISIAMobileBrochureForWeb.pdf",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "219": {
+            "id": "219",
+            "value": "http://enunciate.codehaus.org/",
+            "name": "Enunciate",
+            "edges": [],
+            "isExternal": true
+        },
+        "17": {
+            "id": "17",
+            "value": "/technology-consulting/nvisia-community-pages",
+            "name": "NVISIA Community Pages",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "179": {
+            "id": "179",
+            "value": "/user/58/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "18": {
+            "id": "18",
+            "value": "/technology-consulting/connected-capabilties",
+            "name": "Connected Capabilties",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "178": {
+            "id": "178",
+            "value": "/user/58/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "312": {
+            "id": "312",
+            "value": "/user/46/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "217": {
+            "id": "217",
+            "value": "http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=331311",
+            "name": "reported",
+            "edges": [],
+            "isExternal": true
+        },
+        "15": {
+            "id": "15",
+            "value": "/technology-consulting/mobile-development",
+            "name": "Learn More",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "177": {
+            "id": "177",
+            "value": "/about-us/blog/icd-10-%25E2%2580%2593-future-medical-coding-system%25E2%2580%25A6",
+            "name": "ICD-10 ? The future of the medical coding system?",
+            "edges": [
+                "248"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "218": {
+            "id": "218",
+            "value": "http://monty-says.blogspot.com/2008/11/oops-we-did-it-again-mysql-51-released.html",
+            "name": "blog entry",
+            "edges": [],
+            "isExternal": true
+        },
+        "16": {
+            "id": "16",
+            "value": "/technology-consulting/nvisia%25E2%2580%2599s-actionable-roadmap",
+            "name": "NVISIA?s Actionable Roadmap",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "176": {
+            "id": "176",
+            "value": "http://labs.mozilla.com/2009/03/a-new-memory-tool-for-the-web/",
+            "name": "A New Memory Tool for the Web",
+            "edges": [],
+            "isExternal": true
+        },
+        "310": {
+            "id": "310",
+            "value": "http://en.wikipedia.org/wiki/BigTable",
+            "name": "Google BigTable",
+            "edges": [],
+            "isExternal": true
+        },
+        "13": {
+            "id": "13",
+            "value": "/technology-consulting/application-development",
+            "name": "Enterprise Software Development",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "311": {
+            "id": "311",
+            "value": "/user/46/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "14": {
+            "id": "14",
+            "value": "/technology-consulting/analysis-and-planning",
+            "name": "Learn More",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "11": {
+            "id": "11",
+            "value": "/leading-technology",
+            "name": "Leading Technology",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "12": {
+            "id": "12",
+            "value": "/technology-consulting",
+            "name": "Technology Consulting",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "21": {
+            "id": "21",
+            "value": "/industry-solutions/healthcare-insurance-services",
+            "name": "Health Insurance",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "170": {
+            "id": "170",
+            "value": "/user/47/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "20": {
+            "id": "20",
+            "value": "/industry-solutions/healthcare-provider-services",
+            "name": "Healthcare Provider",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "171": {
+            "id": "171",
+            "value": "/users/bryan-coller",
+            "name": "Bryan Coller",
+            "edges": [
+                "247",
+                "246"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "174": {
+            "id": "174",
+            "value": "http://getfirebug.com/",
+            "name": "Firebug",
+            "edges": [],
+            "isExternal": true
+        },
+        "175": {
+            "id": "175",
+            "value": "http://www.google.com/chrome",
+            "name": "Google?s Chrome browser",
+            "edges": [],
+            "isExternal": true
+        },
+        "172": {
+            "id": "172",
+            "value": "http://developer.yahoo.com/yslow/",
+            "name": "YSlow",
+            "edges": [],
+            "isExternal": true
+        },
+        "173": {
+            "id": "173",
+            "value": "http://www.charlesproxy.com/",
+            "name": "Charles",
+            "edges": [],
+            "isExternal": true
+        },
+        "220": {
+            "id": "220",
+            "value": "http://enunciate.codehaus.org/wannabecool/step4/index.html",
+            "name": "example API page",
+            "edges": [],
+            "isExternal": true
+        },
+        "221": {
+            "id": "221",
+            "value": "http://enunciate.codehaus.org/wannabecool/step4/downloads.html",
+            "name": "example API downloads link",
+            "edges": [],
+            "isExternal": true
+        },
+        "222": {
+            "id": "222",
+            "value": "http://docs.codehaus.org/display/ENUNCIATE/Roadmap",
+            "name": "roadmap",
+            "edges": [],
+            "isExternal": true
+        },
+        "223": {
+            "id": "223",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-9",
+            "name": "ENUNCIATE-9",
+            "edges": [],
+            "isExternal": true
+        },
+        "224": {
+            "id": "224",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-20",
+            "name": "ENUNCIATE-20",
+            "edges": [],
+            "isExternal": true
+        },
+        "225": {
+            "id": "225",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-10",
+            "name": "ENUNCIATE-10",
+            "edges": [],
+            "isExternal": true
+        },
+        "226": {
+            "id": "226",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-11",
+            "name": "ENUNCIATE-11",
+            "edges": [],
+            "isExternal": true
+        },
+        "227": {
+            "id": "227",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-8",
+            "name": "ENUNCIATE-8",
+            "edges": [],
+            "isExternal": true
+        },
+        "228": {
+            "id": "228",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-17",
+            "name": "ENUNCIATE-17",
+            "edges": [],
+            "isExternal": true
+        },
+        "188": {
+            "id": "188",
+            "value": "/about-us/blog/osgi-tutorial",
+            "name": "OSGi Tutorial",
+            "edges": [
+                "275",
+                "276",
+                "286",
+                "277",
+                "278",
+                "279",
+                "281",
+                "280",
+                "285",
+                "284",
+                "283",
+                "282"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "229": {
+            "id": "229",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-18",
+            "name": "ENUNCIATE-18",
+            "edges": [],
+            "isExternal": true
+        },
+        "187": {
+            "id": "187",
+            "value": "/about-us/blog/return-browser-wars",
+            "name": "Return of the browser wars?",
+            "edges": [
+                "270",
+                "269",
+                "268",
+                "272",
+                "271",
+                "274",
+                "273"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "189": {
+            "id": "189",
+            "value": "/about-us/blog/ruby-and-rails-vs-groovy-and-grails",
+            "name": "Ruby and Rails vs Groovy and Grails",
+            "edges": [
+                "288",
+                "289",
+                "287",
+                "293",
+                "290",
+                "292",
+                "291"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "180": {
+            "id": "180",
+            "value": "/users/erik-gfesser",
+            "name": "Erik Gfesser",
+            "edges": [
+                "250",
+                "249"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "10": {
+            "id": "10",
+            "value": "/rapid-delivery",
+            "name": "Rapid Delivery",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "181": {
+            "id": "181",
+            "value": "http://www.economist.com/specialreports/displaystory.cfm?story_id=13438006",
+            "name": "?Hit or Miss?",
+            "edges": [],
+            "isExternal": true
+        },
+        "182": {
+            "id": "182",
+            "value": "http://online.wsj.com/article/SB122818754370771549.html",
+            "name": "reported",
+            "edges": [],
+            "isExternal": true
+        },
+        "183": {
+            "id": "183",
+            "value": "http://www.youtube.com/watch?v=W7wr1SQThyU",
+            "name": "here",
+            "edges": [],
+            "isExternal": true
+        },
+        "184": {
+            "id": "184",
+            "value": "/about-us/blog/getting-closer-web-based-ides",
+            "name": "Getting closer to web based IDEs",
+            "edges": [
+                "251",
+                "252",
+                "253"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "185": {
+            "id": "185",
+            "value": "/about-us/blog/groovy-16-final-released",
+            "name": "Groovy 1.6 Final Released",
+            "edges": [
+                "260",
+                "261",
+                "258",
+                "257",
+                "259",
+                "254",
+                "256",
+                "255"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "186": {
+            "id": "186",
+            "value": "/about-us/blog/another-ide-clouds%25E2%2580%25A6",
+            "name": "Another IDE for the clouds?",
+            "edges": [
+                "262",
+                "263",
+                "267",
+                "266",
+                "265",
+                "264"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "116": {
+            "id": "116",
+            "value": "http://osotamerica.wix.com/rockin-2013",
+            "name": "OSOT ? America?s site",
+            "edges": [],
+            "isExternal": true
+        },
+        "79": {
+            "id": "79",
+            "value": "/users/shaun-lovick",
+            "name": "Moderator: Shaun Lovick?",
+            "edges": [
+                "179",
+                "178"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "117": {
+            "id": "117",
+            "value": "http://www.intertech.com/Free-Developer-Training/June-2013.aspx",
+            "name": "TCJUG presentation",
+            "edges": [],
+            "isExternal": true
+        },
+        "78": {
+            "id": "78",
+            "value": "/about-us/blog/ehealth",
+            "name": "eHealth",
+            "edges": [
+                "177"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "114": {
+            "id": "114",
+            "value": "https://github.com/georgefrick/",
+            "name": "Jump into Backbone presentation sample code.",
+            "edges": [],
+            "isExternal": true
+        },
+        "77": {
+            "id": "77",
+            "value": "/about-us/blog/memory-tools-web-20-development",
+            "name": "Memory tools for Web 2.0 development",
+            "edges": [
+                "174",
+                "175",
+                "172",
+                "173",
+                "176"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "115": {
+            "id": "115",
+            "value": "http://www.technologyexecutivesclub.com/Events/2013/09112013webinar.php",
+            "name": "Technology Executives Club registration web page",
+            "edges": [],
+            "isExternal": true
+        },
+        "112": {
+            "id": "112",
+            "value": "http://www.nvisia.com/",
+            "name": "www.nvisia.com",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "113": {
+            "id": "113",
+            "value": "http://www.campconferences.com/events/2013/mobility2.htm",
+            "name": "CAMP IT event page",
+            "edges": [],
+            "isExternal": true
+        },
+        "110": {
+            "id": "110",
+            "value": "http://news.idg.no/cw/art.cfm?id=0763FB1B-D04C-1F1A-1C93BDF956D8E416",
+            "name": "Computer World",
+            "edges": [],
+            "isExternal": true
+        },
+        "111": {
+            "id": "111",
+            "value": "http://www.cio.com/article/743848",
+            "name": "CIO",
+            "edges": [],
+            "isExternal": true
+        },
+        "118": {
+            "id": "118",
+            "value": "/nvisia-actionable-mobile-roadmap",
+            "name": "NVISIA?s Actionable Roadmap for Mobile brochure",
+            "edges": [
+                "214"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "119": {
+            "id": "119",
+            "value": "http://www.jpmorganchasecc.com/companies.php?team_id=399463",
+            "name": "Our Corporate Challenge Company Page",
+            "edges": [],
+            "isExternal": true
+        },
+        "82": {
+            "id": "82",
+            "value": "/about-us/blog/examinations-and-usability",
+            "name": "Examinations and Usability",
+            "edges": [
+                "182",
+                "183"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "83": {
+            "id": "83",
+            "value": "/about-us/blog/emerging-technologies",
+            "name": "Emerging Technologies",
+            "edges": [
+                "184",
+                "185",
+                "186",
+                "188",
+                "187",
+                "189",
+                "190"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "80": {
+            "id": "80",
+            "value": "/about-us/blog/hit-or-miss",
+            "name": "HIT or Miss",
+            "edges": [
+                "180",
+                "181"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "81": {
+            "id": "81",
+            "value": "/about-us/blog/patient-search-cycle-time",
+            "name": "Patient Search Cycle Time",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "86": {
+            "id": "86",
+            "value": "/about-us/blog/presenting-gpetstore-groovy-pet-store-single-500-line-script",
+            "name": "Presenting GPetStore: a Groovy Pet Store in a single 500 line script",
+            "edges": [
+                "195"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "87": {
+            "id": "87",
+            "value": "/about-us/blog/grails-11-released",
+            "name": "Grails 1.1 released",
+            "edges": [
+                "198",
+                "199",
+                "197",
+                "196"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "84": {
+            "id": "84",
+            "value": "/users/jim-loverde",
+            "name": "Moderator: Jim LoVerde",
+            "edges": [
+                "191",
+                "192"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "85": {
+            "id": "85",
+            "value": "/about-us/blog/single-page-applications-spas-large-enterprises",
+            "name": "Single Page Applications (SPAs) in large enterprises",
+            "edges": [
+                "194",
+                "193"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "67": {
+            "id": "67",
+            "value": "/about-us/news/archives/2013-04",
+            "name": "April 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "125": {
+            "id": "125",
+            "value": "/about-us/news/nvisia-hires-executive-director-strategic-marketing",
+            "name": "NVISIA Hires Executive Director of Strategic Marketing",
+            "edges": [],
+            "isExternal": true,
+            "exists": false
+        },
+        "66": {
+            "id": "66",
+            "value": "/about-us/news/archives/2013-05",
+            "name": "May 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "126": {
+            "id": "126",
+            "value": "/about-us/news/mu-reporter-receives-onc-atcb-20112012-certification",
+            "name": "MU Reporter Receives ONC-ATCB 2011/2012 Certification",
+            "edges": [],
+            "isExternal": true,
+            "exists": false
+        },
+        "300": {
+            "id": "300",
+            "value": "http://www.springframework.org/node/548",
+            "name": "announced their 2.5 RC1 release",
+            "edges": [],
+            "isExternal": true
+        },
+        "69": {
+            "id": "69",
+            "value": "http://www.nvisia.com/category/net-technologies/",
+            "name": ".NET Technologies",
+            "edges": [
+                "143",
+                "134",
+                "144",
+                "135",
+                "145",
+                "132",
+                "146",
+                "128",
+                "133",
+                "147",
+                "138",
+                "139",
+                "136",
+                "137",
+                "129",
+                "131",
+                "140",
+                "130",
+                "142",
+                "141"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "127": {
+            "id": "127",
+            "value": "/about-us/news/company-news?page=1",
+            "name": "Older Posts",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "68": {
+            "id": "68",
+            "value": "/about-us/news/archives/2012-06",
+            "name": "June 2012",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "128": {
+            "id": "128",
+            "value": "/about-us/blog/net-technologies",
+            "name": ".NET Technologies",
+            "edges": [],
+            "isExternal": true,
+            "exists": false
+        },
+        "302": {
+            "id": "302",
+            "value": "http://cbcg.net/talks/googleinternals/index.html",
+            "name": "Google had ~450,000 in 2006",
+            "edges": [],
+            "isExternal": true
+        },
+        "121": {
+            "id": "121",
+            "value": "http://www.wjug.org/wjug/nextmeeting.jsp",
+            "name": "Wisconsin Java User Group",
+            "edges": [],
+            "isExternal": true
+        },
+        "301": {
+            "id": "301",
+            "value": "http://static.springframework.org/spring/docs/2.5.x/reference/jms.html#jms-mdp",
+            "name": "Spring?s answer to MDBs",
+            "edges": [],
+            "isExternal": true
+        },
+        "122": {
+            "id": "122",
+            "value": "http://www.technologyexecutivesclub.com/Events/2013/062013.php",
+            "name": "Detail on the TEC Event",
+            "edges": [],
+            "isExternal": true
+        },
+        "304": {
+            "id": "304",
+            "value": "http://lucene.apache.org/hadoop/",
+            "name": "Hadoop",
+            "edges": [],
+            "isExternal": true
+        },
+        "123": {
+            "id": "123",
+            "value": "/about-us/news/nvisia-delivers-briefing-milwaukee-it-executives",
+            "name": "NVISIA Delivers Briefing to Milwaukee IT Executives",
+            "edges": [
+                "215"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "303": {
+            "id": "303",
+            "value": "http://developer.yahoo.net/blog/archives/2007/07/yahoo-hadoop.html",
+            "name": "interesting article",
+            "edges": [],
+            "isExternal": true
+        },
+        "124": {
+            "id": "124",
+            "value": "/about-us/news/nvisia-holds-information-session-msoe",
+            "name": "NVISIA Holds Information Session at MSOE",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "306": {
+            "id": "306",
+            "value": "http://en.wikipedia.org/wiki/Amazon_S3",
+            "name": "Amazon S3 Service",
+            "edges": [],
+            "isExternal": true
+        },
+        "305": {
+            "id": "305",
+            "value": "http://en.wikipedia.org/wiki/Mapreduce",
+            "name": "MapReduce",
+            "edges": [],
+            "isExternal": true
+        },
+        "308": {
+            "id": "308",
+            "value": "http://en.wikipedia.org/wiki/Google_file_system",
+            "name": "Google File System",
+            "edges": [],
+            "isExternal": true
+        },
+        "307": {
+            "id": "307",
+            "value": "http://en.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "Amazon Web Services",
+            "edges": [],
+            "isExternal": true
+        },
+        "129": {
+            "id": "129",
+            "value": "/about-us/blog/archives/2013-11",
+            "name": "November 2013",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "309": {
+            "id": "309",
+            "value": "http://en.wikipedia.org/wiki/SAWZALL_(Programming_Language)",
+            "name": "Google Sawzall",
+            "edges": [],
+            "isExternal": true
+        },
+        "70": {
+            "id": "70",
+            "value": "/users/dan-christopherson",
+            "name": "Moderator: Dan Christopherson",
+            "edges": [
+                "148",
+                "149"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "71": {
+            "id": "71",
+            "value": "/about-us/blog/aspnet-mvc-open-sourced-microsoft",
+            "name": "ASP.NET MVC open sourced by Microsoft",
+            "edges": [
+                "152",
+                "153",
+                "150",
+                "151",
+                "157",
+                "156",
+                "155",
+                "154"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "120": {
+            "id": "120",
+            "value": "http://www.madjug.org/madjug/",
+            "name": "Madison Java User Group",
+            "edges": [],
+            "isExternal": true
+        },
+        "72": {
+            "id": "72",
+            "value": "/about-us/blog/net-coffee-drinkers",
+            "name": ".NET for Coffee Drinkers",
+            "edges": [
+                "161",
+                "162",
+                "163",
+                "164",
+                "160",
+                "159",
+                "158",
+                "166",
+                "165"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "73": {
+            "id": "73",
+            "value": "/about-us/blog/architecture-soa",
+            "name": "Architecture & SOA",
+            "edges": [
+                "168",
+                "167"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "74": {
+            "id": "74",
+            "value": "/users/dru-henke",
+            "name": "Moderator: Dru Henke",
+            "edges": [
+                "170",
+                "169"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "75": {
+            "id": "75",
+            "value": "/about-us/blog/enterprise-content-management-your-soa",
+            "name": "Enterprise Content Management for Your SOA",
+            "edges": [
+                "171"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "76": {
+            "id": "76",
+            "value": "/about-us/blog/nvisia-presents-webinar-mobile-application-development",
+            "name": "NVISIA Presents Webinar on Mobile Application Development",
+            "edges": [],
+            "isExternal": false,
+            "exists": false
+        },
+        "134": {
+            "id": "134",
+            "value": "/about-us/blog/archives/2009-03",
+            "name": "March 2009",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "135": {
+            "id": "135",
+            "value": "/about-us/blog/archives/2009-02",
+            "name": "February 2009",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "132": {
+            "id": "132",
+            "value": "/about-us/blog/archives/2009-05",
+            "name": "May 2009",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "59": {
+            "id": "59",
+            "value": "/about-us/news/mobile-news",
+            "name": "Mobile News",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "133": {
+            "id": "133",
+            "value": "/about-us/blog/archives/2009-04",
+            "name": "April 2009",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "58": {
+            "id": "58",
+            "value": "/about-us/news/company-news",
+            "name": "Company News",
+            "edges": [
+                "127"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "138": {
+            "id": "138",
+            "value": "/about-us/blog/archives/2008-11",
+            "name": "November 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "57": {
+            "id": "57",
+            "value": "/news?page=1",
+            "name": "Older Posts",
+            "edges": [
+                "125",
+                "126",
+                "123",
+                "124"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "139": {
+            "id": "139",
+            "value": "/about-us/blog/archives/2008-10",
+            "name": "October 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "56": {
+            "id": "56",
+            "value": "/about-us/news/nvisia-delivering-chicago-it-executive-briefing",
+            "name": "NVISIA Delivering Chicago IT Executive Briefing",
+            "edges": [
+                "122"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "136": {
+            "id": "136",
+            "value": "/about-us/blog/archives/2009-01",
+            "name": "January 2009",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "55": {
+            "id": "55",
+            "value": "/about-us/news/nvisia-joins-upaf-ride-arts",
+            "name": "NVISIA Joins the UPAF Ride For the Arts",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "137": {
+            "id": "137",
+            "value": "/about-us/blog/archives/2008-12",
+            "name": "December 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "64": {
+            "id": "64",
+            "value": "/about-us/news/archives/2013-08",
+            "name": "August 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "65": {
+            "id": "65",
+            "value": "/about-us/news/archives/2013-06",
+            "name": "June 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "62": {
+            "id": "62",
+            "value": "/about-us/news/archives/2013-10",
+            "name": "October 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "63": {
+            "id": "63",
+            "value": "/about-us/news/archives/2013-09",
+            "name": "September 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "60": {
+            "id": "60",
+            "value": "/about-us/news/archives/2013-12",
+            "name": "December 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "131": {
+            "id": "131",
+            "value": "/about-us/blog/archives/2013-06",
+            "name": "June 2013",
+            "edges": [],
+            "isExternal": true,
+            "exists": false
+        },
+        "61": {
+            "id": "61",
+            "value": "/about-us/news/archives/2013-11",
+            "name": "November 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": false
+        },
+        "130": {
+            "id": "130",
+            "value": "/about-us/blog/archives/2013-09",
+            "name": "September 2013",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "49": {
+            "id": "49",
+            "value": "/about-us/news/nvisia-presenting-mobile-application-webinar-technology-executives-club-september-11",
+            "name": "NVISIA Presenting Mobile Application Webinar to the Technology Executives Club on September 11, 2013",
+            "edges": [
+                "115"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "143": {
+            "id": "143",
+            "value": "/about-us/blog/archives/2007-12",
+            "name": "December 2007",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "48": {
+            "id": "48",
+            "value": "/about-us/news/nvisia%25E2%2580%2599s-george-frick-presented-jump-backbone",
+            "name": "NVISIA?s George Frick Presented: Jump into Backbone",
+            "edges": [
+                "114"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "144": {
+            "id": "144",
+            "value": "/about-us/blog/archives/2007-10",
+            "name": "October 2007",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "145": {
+            "id": "145",
+            "value": "/about-us/blog/archives/2007-09",
+            "name": "September 2007",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "146": {
+            "id": "146",
+            "value": "/about-us/blog/archives/2007-05",
+            "name": "May 2007",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "45": {
+            "id": "45",
+            "value": "privacy-policy",
+            "name": "PRIVACY POLICY",
+            "edges": [
+                "112"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "147": {
+            "id": "147",
+            "value": "/about-us/blog/archives/2007-01",
+            "name": "January 2007",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "44": {
+            "id": "44",
+            "value": "mailto:info@nvisia.com",
+            "name": "info@nvisia.com",
+            "edges": [],
+            "isExternal": true
+        },
+        "148": {
+            "id": "148",
+            "value": "/user/43/blog-posts",
+            "name": "Blog Post",
+            "edges": [
+                "216"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "47": {
+            "id": "47",
+            "value": "/news/camp-it-enterprise-mobility-strategies-event-november-12-2013",
+            "name": "NVISIA to Present at CAMP-IT?s Enterprise Mobility Strategies Event on November 12, 2013",
+            "edges": [
+                "113"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "149": {
+            "id": "149",
+            "value": "/user/43/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "46": {
+            "id": "46",
+            "value": "#top",
+            "name": "PRIVACY POLICY",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "51": {
+            "id": "51",
+            "value": "/about-us/news/nvisia%25E2%2580%2599s-naveen-vk-presents-spring-data-tcug",
+            "name": "NVISIA?s Naveen VK Presents Spring Data to TCUG",
+            "edges": [
+                "117"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "52": {
+            "id": "52",
+            "value": "/about-us/news/nvisia-announces-new-mobile-app-service-offering",
+            "name": "NVISIA Announces New Mobile App Service Offering",
+            "edges": [
+                "118"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "53": {
+            "id": "53",
+            "value": "/about-us/news/nvisia-joins-jp-morgan-chase-corporate-challenge",
+            "name": "NVISIA Joins the JP Morgan Chase Corporate Challenge",
+            "edges": [
+                "119"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "54": {
+            "id": "54",
+            "value": "/about-us/news/nvisia%25E2%2580%2599s-naveen-vk-presents-spring-data",
+            "name": "NVISIA?s Naveen VK Presents on Spring Data",
+            "edges": [
+                "121",
+                "120"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "140": {
+            "id": "140",
+            "value": "/about-us/blog/archives/2008-09",
+            "name": "September 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "142": {
+            "id": "142",
+            "value": "/about-us/blog/archives/2008-05",
+            "name": "May 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "50": {
+            "id": "50",
+            "value": "/about-us/news/nvisia-rockin%25E2%2580%2599-support-our-troops",
+            "name": "NVISIA is Rockin? to Support Our Troops!",
+            "edges": [
+                "116"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "141": {
+            "id": "141",
+            "value": "/about-us/blog/archives/2008-06",
+            "name": "June 2008",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "281": {
+            "id": "281",
+            "value": "http://www2.osgi.org/javadoc/r4/org/osgi/framework/BundleActivator.html",
+            "name": "BundleActivator",
+            "edges": [],
+            "isExternal": true
+        },
+        "280": {
+            "id": "280",
+            "value": "http://www.springframework.org/osgi",
+            "name": "Spring?s OSGi dynamic module mechanism",
+            "edges": [],
+            "isExternal": true
+        },
+        "285": {
+            "id": "285",
+            "value": "http://www.eclipse.org/equinox/",
+            "name": "Equinox",
+            "edges": [],
+            "isExternal": true
+        },
+        "284": {
+            "id": "284",
+            "value": "http://www.infoq.com/news/2008/05/jsr277-osgi",
+            "name": "Discussion of JSR277 and OSGi possibly resolving their differences",
+            "edges": [],
+            "isExternal": true
+        },
+        "283": {
+            "id": "283",
+            "value": "http://www.osgi.org/wiki/uploads/Conference/OSGiBestPractices.pdf",
+            "name": "OSGi Best Practices Presentation",
+            "edges": [],
+            "isExternal": true
+        },
+        "282": {
+            "id": "282",
+            "value": "http://www.springframework.org/osgi/simple-service-sample",
+            "name": "example Simple Service",
+            "edges": [],
+            "isExternal": true
+        },
+        "288": {
+            "id": "288",
+            "value": "http://jmatter.org/",
+            "name": "JMatter",
+            "edges": [],
+            "isExternal": true
+        },
+        "289": {
+            "id": "289",
+            "value": "http://en.wikipedia.org/wiki/Ruby_language",
+            "name": "Ruby",
+            "edges": [],
+            "isExternal": true
+        },
+        "286": {
+            "id": "286",
+            "value": "http://felix.apache.org/site/index.html",
+            "name": "Apache Felix",
+            "edges": [],
+            "isExternal": true
+        },
+        "287": {
+            "id": "287",
+            "value": "http://www.trailsframework.org/",
+            "name": "Trails",
+            "edges": [],
+            "isExternal": true
+        },
+        "270": {
+            "id": "270",
+            "value": "http://ejohn.org/blog/tracemonkey/",
+            "name": "TraceMonkey",
+            "edges": [],
+            "isExternal": true
+        },
+        "272": {
+            "id": "272",
+            "value": "http://webkit.org/",
+            "name": "WebKit",
+            "edges": [],
+            "isExternal": true
+        },
+        "271": {
+            "id": "271",
+            "value": "http://blogoscoped.com/google-chrome/15",
+            "name": "building this idea into Chrome",
+            "edges": [],
+            "isExternal": true
+        },
+        "274": {
+            "id": "274",
+            "value": "http://marketshare.hitslink.com/report.aspx?qprid=5",
+            "name": "Google has almost 80% of the search engine market share",
+            "edges": [],
+            "isExternal": true
+        },
+        "273": {
+            "id": "273",
+            "value": "http://marketshare.hitslink.com/report.aspx?qprid=3",
+            "name": "browser trends",
+            "edges": [],
+            "isExternal": true
+        },
+        "275": {
+            "id": "275",
+            "value": "http://www.theserverside.com/tt/articles/article.tss?l=OSGiforBeginners",
+            "name": "OSGi for Beginners",
+            "edges": [],
+            "isExternal": true
+        },
+        "276": {
+            "id": "276",
+            "value": "http://www.osgi.org/Repository/HomePage",
+            "name": "Official OSGi.org Bundle Repository",
+            "edges": [],
+            "isExternal": true
+        },
+        "277": {
+            "id": "277",
+            "value": "http://www.osgi.org/download/rfc-0112_BundleRepository.pdf",
+            "name": "spec",
+            "edges": [],
+            "isExternal": true
+        },
+        "278": {
+            "id": "278",
+            "value": "http://static.springframework.org/osgi/docs/1.1.0-m2/reference/html/appendix-osgi-repo.html",
+            "name": "Spring OSGi Bundle Repository",
+            "edges": [],
+            "isExternal": true
+        },
+        "279": {
+            "id": "279",
+            "value": "http://felix.apache.org/site/apache-felix-osgi-bundle-repository-obr.html",
+            "name": "Apache Felix Bundle Repository",
+            "edges": [],
+            "isExternal": true
+        },
+        "109": {
+            "id": "109",
+            "value": "http://www.networkworld.com/news/tech/2013/112713-single-page-apps-276417.html",
+            "name": "Network World",
+            "edges": [],
+            "isExternal": true
+        },
+        "108": {
+            "id": "108",
+            "value": "mailto:careers@nvisia.com",
+            "name": "careers@nvisia.com",
+            "edges": [],
+            "isExternal": true
+        },
+        "107": {
+            "id": "107",
+            "value": "/nvisia-careers/open-positions-milwaukee",
+            "name": "Working in Milwaukee",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "106": {
+            "id": "106",
+            "value": "/java-software-engineer-%25E2%2580%2593-chicago-il",
+            "name": "Java Software Engineer ? Chicago, IL",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "105": {
+            "id": "105",
+            "value": "/java-software-engineer-%25E2%2580%2593-milwaukee-wi",
+            "name": "Java Software Engineer ? Milwaukee, WI",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "104": {
+            "id": "104",
+            "value": "/java-technical-architect-%25E2%2580%2593-chicago-il",
+            "name": "Java Technical Architect ? Chicago, IL",
+            "edges": [
+                "213"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "103": {
+            "id": "103",
+            "value": "http://www.nvisia.com/it-careers/your-career/",
+            "name": "your career",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "99": {
+            "id": "99",
+            "value": "rapid-delivery",
+            "name": "rapidly delivers",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "102": {
+            "id": "102",
+            "value": "http://www.nvisia.com/about-us/culture/",
+            "name": "Our culture",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "101": {
+            "id": "101",
+            "value": "technology-consulting/connected-capabilties",
+            "name": "connected delivery capabilities span the entire critical path of Enterprise Software Development, from ideation to DevOps",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "100": {
+            "id": "100",
+            "value": "leading-technology",
+            "name": "leading technologies",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "98": {
+            "id": "98",
+            "value": "why-nvisia/authentic-application-development-partner",
+            "name": "authentic enterprise application development partner",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "97": {
+            "id": "97",
+            "value": "http://www.linkedin.com/company/nvisia",
+            "name": "Follow NVISIA on LinkedIn",
+            "edges": [],
+            "isExternal": true
+        },
+        "96": {
+            "id": "96",
+            "value": "http://goo.gl/maps/hukxv",
+            "name": "Map",
+            "edges": [],
+            "isExternal": true
+        },
+        "95": {
+            "id": "95",
+            "value": "http://goo.gl/maps/9ilV1",
+            "name": "Map",
+            "edges": [],
+            "isExternal": true
+        },
+        "94": {
+            "id": "94",
+            "value": "/about-us/blog/nvisia%25E2%2580%2599s-tec-chicago-presentation-june-27-2013",
+            "name": "NVISIA?s TEC Chicago Presentation June 27, 2013",
+            "edges": [],
+            "isExternal": false,
+            "exists": false
+        },
+        "93": {
+            "id": "93",
+            "value": "/users/barb-vandenberg",
+            "name": "Moderator: Barb Vandenberg",
+            "edges": [
+                "211",
+                "212"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "92": {
+            "id": "92",
+            "value": "/about-us/blog/requirement-project-management",
+            "name": "Requirements & Project Management",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "91": {
+            "id": "91",
+            "value": "/about-us/blog/springsource-buys-g2one",
+            "name": "SpringSource buys G2One",
+            "edges": [
+                "210",
+                "205",
+                "206",
+                "207",
+                "208",
+                "209"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "294": {
+            "id": "294",
+            "value": "http://www.theserverside.com/tt/articles/article.tss?l=SpringNewJavaEE",
+            "name": "this article on TSS",
+            "edges": [],
+            "isExternal": true
+        },
+        "90": {
+            "id": "90",
+            "value": "/about-us/blog/upgrading-open-source-frameworks-%25E2%2580%2593-part-i",
+            "name": "Upgrading Open Source Frameworks ? Part I",
+            "edges": [
+                "203",
+                "204"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "293": {
+            "id": "293",
+            "value": "http://groovy.codehaus.org/groovy-jdk.html",
+            "name": "Groovy JDK",
+            "edges": [],
+            "isExternal": true
+        },
+        "296": {
+            "id": "296",
+            "value": "/user/45/blog-post?page=1",
+            "name": "last ?",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "295": {
+            "id": "295",
+            "value": "/user/45/blog-posts?page=1",
+            "name": "last ?",
+            "edges": [],
+            "isExternal": false,
+            "exists": true
+        },
+        "290": {
+            "id": "290",
+            "value": "http://en.wikipedia.org/wiki/Groovy",
+            "name": "Groovy",
+            "edges": [],
+            "isExternal": true
+        },
+        "292": {
+            "id": "292",
+            "value": "http://jcp.org/en/jsr/detail?id=223",
+            "name": "JSR-223",
+            "edges": [],
+            "isExternal": true
+        },
+        "291": {
+            "id": "291",
+            "value": "http://jcp.org/en/jsr/detail?id=241",
+            "name": "JSR-241",
+            "edges": [],
+            "isExternal": true
+        },
+        "297": {
+            "id": "297",
+            "value": "/user/42/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "298": {
+            "id": "298",
+            "value": "/user/42/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "299": {
+            "id": "299",
+            "value": "http://www.wellcode.com/home/index.php",
+            "name": "Code-Navigator",
+            "edges": [],
+            "isExternal": true
+        },
+        "88": {
+            "id": "88",
+            "value": "/about-us/blog/java-open-frameworks",
+            "name": "Java & Open Frameworks",
+            "edges": [
+                "202",
+                "200",
+                "201"
+            ],
+            "isExternal": false,
+            "exists": true
+        },
+        "89": {
+            "id": "89",
+            "value": "/about-us/blog/upgrading-open-source-frameworks-%25E2%2580%2593-part-ii",
+            "name": "Upgrading Open Source Frameworks ? Part II",
+            "edges": [],
+            "isExternal": false,
+            "exists": false
+        },
+        "240": {
+            "id": "240",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-25",
+            "name": "ENUNCIATE-25",
+            "edges": [],
+            "isExternal": true
+        },
+        "241": {
+            "id": "241",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-1",
+            "name": "ENUNCIATE-1",
+            "edges": [],
+            "isExternal": true
+        },
+        "195": {
+            "id": "195",
+            "value": "http://gpetstore.googlecode.com/files/gpetstore.groovy",
+            "name": "gpetstore.groovy",
+            "edges": [],
+            "isExternal": true
+        },
+        "194": {
+            "id": "194",
+            "value": "http://www.infoq.com/research/top-javascript-mvc-frameworks",
+            "name": "http://www.infoq.com/research/top-javascript-mvc-frameworks",
+            "edges": [],
+            "isExternal": true
+        },
+        "197": {
+            "id": "197",
+            "value": "http://www.grails.org/1.1+Release+Notes",
+            "name": "Grails 1.1",
+            "edges": [],
+            "isExternal": true
+        },
+        "196": {
+            "id": "196",
+            "value": "http://groovy.codehaus.org/",
+            "name": "Groovy",
+            "edges": [],
+            "isExternal": true
+        },
+        "191": {
+            "id": "191",
+            "value": "/user/45/blog-posts",
+            "name": "Blog Post",
+            "edges": [
+                "295"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "190": {
+            "id": "190",
+            "value": "/about-us/blog/spring-new-java-ee",
+            "name": "Spring as the new Java EE",
+            "edges": [
+                "294"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "193": {
+            "id": "193",
+            "value": "/users/mark-panthofer",
+            "name": "Mark Panthofer",
+            "edges": [
+                "297",
+                "298"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "192": {
+            "id": "192",
+            "value": "/user/45/blog-post",
+            "name": "Blog Posts",
+            "edges": [
+                "296"
+            ],
+            "isExternal": true,
+            "exists": true
+        },
+        "198": {
+            "id": "198",
+            "value": "http://www.ibm.com/common/ssi/fcgi-bin/ssialias?subtype=ca&infotype=an&appname=iSource&supplier=897&letternum=ENUS909-014",
+            "name": "announced",
+            "edges": [],
+            "isExternal": true
+        },
+        "199": {
+            "id": "199",
+            "value": "http://groovy.codehaus.org/Compile-time+Metaprogramming+-+AST+Transformations",
+            "name": "powerful compile time metaprogramming",
+            "edges": [],
+            "isExternal": true
+        },
+        "245": {
+            "id": "245",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-49",
+            "name": "ENUNCIATE-49",
+            "edges": [],
+            "isExternal": true
+        },
+        "244": {
+            "id": "244",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-7",
+            "name": "ENUNCIATE-7",
+            "edges": [],
+            "isExternal": true
+        },
+        "243": {
+            "id": "243",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-5",
+            "name": "ENUNCIATE-5",
+            "edges": [],
+            "isExternal": true
+        },
+        "242": {
+            "id": "242",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-2",
+            "name": "ENUNCIATE-2",
+            "edges": [],
+            "isExternal": true
+        },
+        "249": {
+            "id": "249",
+            "value": "/user/44/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "248": {
+            "id": "248",
+            "value": "http://online.wsj.com/article/SB122636897819516185.html",
+            "name": "reported",
+            "edges": [],
+            "isExternal": true
+        },
+        "247": {
+            "id": "247",
+            "value": "/user/52/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "246": {
+            "id": "246",
+            "value": "/user/52/blog-posts",
+            "name": "Blog Post",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "230": {
+            "id": "230",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-13",
+            "name": "ENUNCIATE-13",
+            "edges": [],
+            "isExternal": true
+        },
+        "239": {
+            "id": "239",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-24",
+            "name": "ENUNCIATE-24",
+            "edges": [],
+            "isExternal": true
+        },
+        "232": {
+            "id": "232",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-15",
+            "name": "ENUNCIATE-15",
+            "edges": [],
+            "isExternal": true
+        },
+        "231": {
+            "id": "231",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-14",
+            "name": "ENUNCIATE-14",
+            "edges": [],
+            "isExternal": true
+        },
+        "234": {
+            "id": "234",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-12",
+            "name": "ENUNCIATE-12",
+            "edges": [],
+            "isExternal": true
+        },
+        "233": {
+            "id": "233",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-16",
+            "name": "ENUNCIATE-16",
+            "edges": [],
+            "isExternal": true
+        },
+        "236": {
+            "id": "236",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-21",
+            "name": "ENUNCIATE-21",
+            "edges": [],
+            "isExternal": true
+        },
+        "235": {
+            "id": "235",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-19",
+            "name": "ENUNCIATE-19",
+            "edges": [],
+            "isExternal": true
+        },
+        "238": {
+            "id": "238",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-23",
+            "name": "ENUNCIATE-23",
+            "edges": [],
+            "isExternal": true
+        },
+        "237": {
+            "id": "237",
+            "value": "http://jira.codehaus.org/browse/ENUNCIATE-22",
+            "name": "ENUNCIATE-22",
+            "edges": [],
+            "isExternal": true
+        },
+        "262": {
+            "id": "262",
+            "value": "http://heroku.com/",
+            "name": "Heroku",
+            "edges": [],
+            "isExternal": true
+        },
+        "263": {
+            "id": "263",
+            "value": "http://services.alphaworks.ibm.com/graduated/qedwiki.html",
+            "name": "QEDWiki",
+            "edges": [],
+            "isExternal": true
+        },
+        "260": {
+            "id": "260",
+            "value": "http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html",
+            "name": "TIOBE index",
+            "edges": [],
+            "isExternal": true
+        },
+        "261": {
+            "id": "261",
+            "value": "http://www.infoq.com/articles/groovy-1-6",
+            "name": "here",
+            "edges": [],
+            "isExternal": true
+        },
+        "269": {
+            "id": "269",
+            "value": "http://www.thewayithink.co.uk/post/Good-Bye-FireBug-Hello-Developer-Tools.aspx",
+            "name": "Developer Tools",
+            "edges": [],
+            "isExternal": true
+        },
+        "268": {
+            "id": "268",
+            "value": "http://blogoscoped.com/google-chrome/4",
+            "name": "Google has answered my rant",
+            "edges": [],
+            "isExternal": true
+        },
+        "267": {
+            "id": "267",
+            "value": "http://www.smartclient.com/",
+            "name": "IsoMorphic?s SmartClient",
+            "edges": [],
+            "isExternal": true
+        },
+        "266": {
+            "id": "266",
+            "value": "http://www.wavemaker.com/",
+            "name": "WaveMaker",
+            "edges": [],
+            "isExternal": true
+        },
+        "265": {
+            "id": "265",
+            "value": "http://ajaxian.com/archives/wavemaker-ide-offers-deployment-to-amazon",
+            "name": "entry",
+            "edges": [],
+            "isExternal": true
+        },
+        "264": {
+            "id": "264",
+            "value": "http://www-01.ibm.com/software/info/mashup-center/",
+            "name": "mashup products",
+            "edges": [],
+            "isExternal": true
+        },
+        "250": {
+            "id": "250",
+            "value": "/user/44/blog-post",
+            "name": "Blog Posts",
+            "edges": [],
+            "isExternal": true,
+            "exists": true
+        },
+        "251": {
+            "id": "251",
+            "value": "http://labs.mozilla.com/2009/02/introducing-bespin/",
+            "name": "Bespin announcement",
+            "edges": [],
+            "isExternal": true
+        },
+        "252": {
+            "id": "252",
+            "value": "http://www.infoq.com/news/2009/02/web-based-ide",
+            "name": "Web-based IDEs to become mainstream?",
+            "edges": [],
+            "isExternal": true
+        },
+        "258": {
+            "id": "258",
+            "value": "http://www.wired.com/",
+            "name": "Wired.com",
+            "edges": [],
+            "isExternal": true
+        },
+        "257": {
+            "id": "257",
+            "value": "http://www.springsource.com/files/Wired.com%2520Case%2520study..pdf",
+            "name": "case study",
+            "edges": [],
+            "isExternal": true
+        },
+        "259": {
+            "id": "259",
+            "value": "http://www.wired.com/reviews/",
+            "name": "product reviews portion of their site",
+            "edges": [],
+            "isExternal": true
+        },
+        "254": {
+            "id": "254",
+            "value": "http://glaforge.free.fr/weblog/index.php?itemid=263",
+            "name": "final release of Groovy 1.6",
+            "edges": [],
+            "isExternal": true
+        },
+        "253": {
+            "id": "253",
+            "value": "http://nvisia.com/techs/?p=141",
+            "name": "my previous thoughts on the matter",
+            "edges": [],
+            "isExternal": true
+        },
+        "256": {
+            "id": "256",
+            "value": "http://www.grailsblog.com/archive/show?id=3",
+            "name": "gaining interest",
+            "edges": [],
+            "isExternal": true
+        },
+        "255": {
+            "id": "255",
+            "value": "http://groovy.codehaus.org/Grape",
+            "name": "Grape module and dependency system",
+            "edges": [],
+            "isExternal": true
+        }
+    }
+}

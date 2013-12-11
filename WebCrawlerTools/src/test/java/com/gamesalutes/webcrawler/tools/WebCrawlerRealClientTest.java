@@ -9,6 +9,8 @@ import java.util.Set;
 import org.apache.commons.collections.CollectionUtils;
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.gamesalutes.utils.LoggingUtils;
 import com.gamesalutes.webcrawler.tools.model.LinkGraph;
@@ -18,6 +20,7 @@ public class WebCrawlerRealClientTest {
 	
 	private WebCrawlerClient client;
 
+	private static final Logger logger = LoggerFactory.getLogger(WebCrawlerRealClientTest.class);
 	
 	// write out link graph to json
 	public static void main(String [] args) throws Exception {
@@ -29,6 +32,8 @@ public class WebCrawlerRealClientTest {
 		client.setLinkParser(new LinkParser());
 		client.setConnector(new HttpWebConnector());
 		client.setLinkListener(linkListener);
+		// set recursion limit to 4
+		client.setDepthLimit(4);
 		
 		client.initialize();
 		
@@ -36,11 +41,18 @@ public class WebCrawlerRealClientTest {
 			System.err.println("USAGE: <baseurl> <basename> <jsonFile>");
 			return;
 		}
-		client.execute(args[0], args[1]);
-		
-		LinkGraph linkGraph = linkListener.getLinkModel();
-		
-		JsonUtils.toJson(linkGraph, new BufferedWriter(new FileWriter(args[2])));
+		try {
+			client.execute(args[0], args[1]);
+			
+			LinkGraph linkGraph = linkListener.getLinkModel();
+			
+			logger.info("Writing data to json...");
+			JsonUtils.toJson(linkGraph, new BufferedWriter(new FileWriter(args[2])));
+			logger.info("Data written successfully.");
+		}
+		finally {
+			client.dispose();
+		}
 	}
 	
 	

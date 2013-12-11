@@ -29,9 +29,9 @@ public class LinkModelLinkListener implements LinkListener {
 		counter.set(0);
 	}
 
-	public synchronized void onVisited(Link link) {
+	public synchronized void onLink(Link link) {
 		// node exists - let's see if external or internal
-		logger.info("Visited: " + link);
+		logger.info("onLink: " + link);
 		createLinkModel(link);
 		
 		
@@ -50,9 +50,11 @@ public class LinkModelLinkListener implements LinkListener {
 		model = nodeMap.get(key);
 		// create it
 		if(model == null) {
-			model = new LinkModel().setName(name).setValue(key).setId(String.valueOf(counter.incrementAndGet()));
+			model = new LinkModel().setName(name).setValue(key).setIsExternal(
+					Boolean.valueOf(link.isExternal())).setId(String.valueOf(counter.incrementAndGet()));
 			nodeMap.put(key, model);
 			linkModel.addNode(model);
+			logger.info("Created linkModel=" + model);
 		}
 		LinkModel sourceModel;
 		if(!link.isRoot()) {
@@ -76,9 +78,10 @@ public class LinkModelLinkListener implements LinkListener {
 	}
 
 	public synchronized void onVisitSuccess(Link link) {
-		LinkModel model = nodeMap.get(link.getTargetUrl());
+		logger.info("onVisitSuccess:" + link);
+
+		LinkModel model = nodeMap.get(link.getTargetUrl().toString());
 		if(model != null) {
-			logger.info("onVisitSuccess:" + link);
 			model.setExists(Boolean.TRUE);
 		}
 		else {
@@ -87,32 +90,11 @@ public class LinkModelLinkListener implements LinkListener {
 	}
 
 	public synchronized void onVisitFailed(Link link) {
-		LinkModel model = nodeMap.get(link.getTargetUrl());
+		logger.info("onVisitFailed:" + link);
+
+		LinkModel model = nodeMap.get(link.getTargetUrl().toString());
 		if(model != null) {
-			logger.info("onVisitFailed:" + link);
 			model.setExists(Boolean.FALSE);
-		}
-		else {
-			logger.warn("Model not found for link=" + link);
-		}
-	}
-
-	public synchronized void onInternalLink(Link link) {
-		LinkModel model = nodeMap.get(link.getTargetUrl());
-		if(model != null) {
-			logger.info("onInternalLink:" + link);
-			model.setIsExternal(Boolean.FALSE);
-		}
-		else {
-			logger.warn("Model not found for link=" + link);
-		}
-	}
-
-	public synchronized void onExternalLink(Link link) {
-		LinkModel model = nodeMap.get(link.getTargetUrl());
-		if(model != null) {
-			logger.info("onInternalLink:" + link);
-			model.setIsExternal(Boolean.TRUE);
 		}
 		else {
 			logger.warn("Model not found for link=" + link);
